@@ -1,0 +1,825 @@
+concept,count
+"('51221', 'Hematocrit')",140739
+"('50912', 'Creatinine')",139674
+"('51265', 'Platelet Count')",136309
+"('51006', 'Urea Nitrogen')",135874
+"('51222', 'Hemoglobin')",135141
+"('51301', 'White Blood Cells')",134353
+"('51249', 'MCHC')",134190
+"('51279', 'Red Blood Cells')",134178
+"('51250', 'MCV')",134177
+"('51248', 'MCH')",134176
+"('50971', 'Potassium')",134169
+"('51277', 'RDW')",134168
+"('50983', 'Sodium')",132768
+"('50902', 'Chloride')",131397
+"('50882', 'Bicarbonate')",126877
+"('50868', 'Anion Gap')",126547
+"('50931', 'Glucose')",117325
+"('50893', 'Calcium, Total')",93205
+"('50960', 'Magnesium')",90909
+"('50970', 'Phosphate')",87597
+"('51678', 'L')",62423
+"('50947', 'I')",62422
+"('50934', 'H')",62421
+"('50920', 'Estimated GFR (MDRD equation)')",58763
+"('50861', 'Alanine Aminotransferase (ALT)')",58233
+"('52172', 'RDW-SD')",57955
+"('50878', 'Asparate Aminotransferase (AST)')",57247
+"('51237', 'INR(PT)')",57062
+"('51274', 'PT')",57045
+"('51146', 'Basophils')",52532
+"('51200', 'Eosinophils')",52532
+"('51244', 'Lymphocytes')",52531
+"('51254', 'Monocytes')",52531
+"('51256', 'Neutrophils')",52531
+"('51275', 'PTT')",51612
+"('50885', 'Bilirubin, Total')",51004
+"('50863', 'Alkaline Phosphatase')",50668
+"('50862', 'Albumin')",33137
+"('51492', 'Protein')",28849
+"('51484', 'Ketone')",28849
+"('51486', 'Leukocytes')",28849
+"('51487', 'Nitrite')",28849
+"('51506', 'Urine Appearance')",28849
+"('51491', 'pH')",28849
+"('51464', 'Bilirubin')",28849
+"('51466', 'Blood')",28849
+"('51478', 'Glucose')",28849
+"('51498', 'Specific Gravity')",28849
+"('51508', 'Urine Color')",28849
+"('51514', 'Urobilinogen')",28849
+"('51087', 'Length of Urine Collection')",27202
+"('52033', 'Specimen Type')",25361
+"('52075', 'Absolute Neutrophil Count')",23107
+"('50820', 'pH')",22958
+"('52073', 'Absolute Eosinophil Count')",22197
+"('51133', 'Absolute Lymphocyte Count')",22195
+"('52069', 'Absolute Basophil Count')",22195
+"('52074', 'Absolute Monocyte Count')",22195
+"('50813', 'Lactate')",21393
+"('50821', 'pO2')",20792
+"('50804', 'Calculated Total CO2')",20780
+"('50802', 'Base Excess')",20779
+"('50818', 'pCO2')",20775
+"('51476', 'Epithelial Cells')",20318
+"('51463', 'Bacteria')",20318
+"('51493', 'RBC')",20318
+"('51516', 'WBC')",20318
+"('51519', 'Yeast')",20318
+"('50954', 'Lactate Dehydrogenase (LD)')",19502
+"('52135', 'Immature Granulocytes')",17761
+"('51003', 'Troponin T')",15679
+"('51512', 'Urine Mucous')",13455
+"('50993', 'Thyroid Stimulating Hormone')",13232
+"('50933', 'Green Top Hold (plasma)')",13166
+"('50887', 'Blue Top Hold')",12041
+"('50910', 'Creatine Kinase (CK)')",11649
+"('50808', 'Free Calcium')",11519
+"('50907', 'Cholesterol, Total')",10550
+"('51000', 'Triglycerides')",10524
+"('51266', 'Platelet Smear')",10460
+"('50904', 'Cholesterol, HDL')",10335
+"('50903', 'Cholesterol Ratio (Total/HDL)')",10300
+"('50956', 'Lipase')",10217
+"('50822', 'Potassium, Whole Blood')",10146
+"('50955', 'Light Green Top Hold')",9887
+"('50911', 'Creatine Kinase, MB Isoenzyme')",9732
+"('51267', 'Poikilocytosis')",9401
+"('51137', 'Anisocytosis')",9400
+"('50852', '% Hemoglobin A1c')",9392
+"('50905', 'Cholesterol, LDL, Calculated')",9379
+"('51246', 'Macrocytes')",9175
+"('51268', 'Polychromasia')",9087
+"('51252', 'Microcytes')",9055
+"('51233', 'Hypochromia')",9032
+"('51144', 'Bands')",8633
+"('50809', 'Glucose')",8563
+"('51082', 'Creatinine, Urine')",8161
+"('51613', 'eAG')",8066
+"('51251', 'Metamyelocytes')",7873
+"('51255', 'Myelocytes')",7821
+"('51143', 'Atypical Lymphocytes')",7760
+"('50979', 'Red Top Hold')",7490
+"('50817', 'Oxygen Saturation')",7268
+"('50976', 'Protein, Total')",6830
+"('51103', 'Uhold')",6604
+"('50924', 'Ferritin')",6182
+"('50812', 'Intubated')",6118
+"('51107', 'Urine tube, held')",5440
+"('50986', 'tacroFK')",5316
+"('50930', 'Globulin')",5281
+"('51007', 'Uric Acid')",5222
+"('50952', 'Iron')",5057
+"('50810', 'Hematocrit, Calculated')",4808
+"('50811', 'Hemoglobin')",4808
+"('50889', 'C-Reactive Protein')",4762
+"('51260', 'Ovalocytes')",4732
+"('50824', 'Sodium, Whole Blood')",4535
+"('51482', 'Hyaline Casts')",4508
+"('50998', 'Transferrin')",4478
+"('50953', 'Iron Binding Capacity, Total')",4473
+"('51214', 'Fibrinogen, Functional')",4415
+"('51010', 'Vitamin B12')",4334
+"('50995', 'Thyroxine (T4), Free')",4231
+"('51102', 'Total Protein, Urine')",4148
+"('50825', 'Temperature')",4134
+"('51009', 'Vancomycin')",3899
+"('50883', 'Bilirubin, Direct')",3892
+"('50922', 'Ethanol')",3831
+"('50867', 'Amylase')",3811
+"('50856', 'Acetaminophen')",3761
+"('50884', 'Bilirubin, Indirect')",3671
+"('50981', 'Salicylate')",3669
+"('50999', 'Tricyclic Antidepressant Screen')",3646
+"('51099', 'Protein/Creatinine Ratio')",3609
+"('51218', 'Granulocyte Count')",3583
+"('50806', 'Chloride, Whole Blood')",3493
+"('50919', 'EDTA Hold')",3414
+"('51079', 'Cocaine, Urine')",3381
+"('51092', 'Opiate Screen, Urine')",3370
+"('51071', 'Amphetamine Screen, Urine')",3356
+"('51075', 'Benzodiazepine Screen, Urine')",3351
+"('51074', 'Barbiturate Screen, Urine')",3341
+"('51090', 'Methadone, Urine')",3336
+"('50853', '25-OH Vitamin D')",3269
+"('51085', 'HCG, Urine, Qualitative')",3242
+"('50880', 'Benzodiazepine Screen')",3069
+"('50879', 'Barbiturate Screen')",3063
+"('51296', 'Teardrop Cells')",2883
+"('50816', 'Oxygen')",2766
+"('51100', 'Sodium, Urine')",2737
+"('50963', 'NTproBNP')",2732
+"('50941', 'Hepatitis B Surface Antigen')",2707
+"('51257', 'Nucleated Red Cells')",2568
+"('51501', 'Transitional Epithelial Cells')",2537
+"('50943', 'Hepatitis C Virus Antibody')",2522
+"('50974', 'Prostate Specific Antigen')",2425
+"('51288', 'Sedimentation Rate')",2417
+"('53153', 'HIV Screen')",2365
+"('50940', 'Hepatitis B Surface Antibody')",2345
+"('51069', 'Albumin, Urine')",2340
+"('51287', 'Schistocytes')",2331
+"('51070', 'Albumin/Creatinine, Urine')",2271
+"('50925', 'Folate')",2226
+"('50819', 'PEEP')",2226
+"('50827', 'Ventilation Rate')",2166
+"('50828', 'Ventilator')",2156
+"('51283', 'Reticulocyte Count, Automated')",2128
+"('51093', 'Osmolality, Urine')",2120
+"('50965', 'Parathyroid Hormone')",2105
+"('50950', 'Immunoglobulin G')",2025
+"('50826', 'Tidal Volume')",1919
+"('50949', 'Immunoglobulin A')",1886
+"('50975', 'Protein Electrophoresis')",1846
+"('50935', 'Haptoglobin')",1786
+"('51097', 'Potassium, Urine')",1704
+"('51078', 'Chloride, Urine')",1670
+"('50942', 'Hepatitis B Virus Core Antibody')",1649
+"('50964', 'Osmolality, Measured')",1632
+"('50900', 'Carcinoembyronic Antigen (CEA)')",1621
+"('50951', 'Immunoglobulin M')",1599
+"('50906', 'Cholesterol, LDL, Measured')",1566
+"('50864', 'Alpha-Fetoprotein')",1515
+"('50946', 'Human Chorionic Gonadotropin')",1445
+"('51462', 'Amorphous Crystals')",1444
+"('51104', 'Urea Nitrogen, Urine')",1395
+"('52111', 'Echinocytes')",1379
+"('51989', 'Oxycodone')",1353
+"('51733', 'STX2')",1163
+"('51734', 'STX3')",1149
+"('52171', 'RBC Morphology')",1130
+"('51732', 'STX1')",1120
+"('51737', 'STX6')",1115
+"('51282', 'Reticulocyte Count, Absolute')",1114
+"('52007', 'UTX4')",1111
+"('52006', 'UTX3')",1099
+"('52008', 'UTX5')",1098
+"('52004', 'UTX1')",1098
+"('52005', 'UTX2')",1092
+"('52010', 'UTX7')",1091
+"('50909', 'Cortisol')",1088
+"('52009', 'UTX6')",1059
+"('51564', 'ARCH-1')",1052
+"('51176', 'CD3 Cells, Percent')",1047
+"('50967', 'Phenytoin')",1036
+"('50908', 'CK-MB Index')",1027
+"('51180', 'CD4 Cells, Percent')",1020
+"('51194', 'CD8 Cells, Percent')",1020
+"('50873', 'Anti-Nuclear Antibody')",1017
+"('50803', 'Calculated Bicarbonate, Whole Blood')",988
+"('51294', 'Target Cells')",979
+"('51300', 'WBC Count')",974
+"('52769', 'Absolute Lymphocyte Count')",974
+"('51245', 'Lymphocytes, Percent')",974
+"('51181', 'CD4/CD8 Ratio')",974
+"('51132', 'Absolute CD8 Count')",974
+"('51131', 'Absolute CD4 Count')",974
+"('51130', 'Absolute CD3 Count')",974
+"('51706', 'Problem Specimen')",965
+"('51657', 'HPE1')",954
+"('50914', 'Cyclosporin')",927
+"('52023', 'Assist/Control')",926
+"('50978', 'Rapamycin')",894
+"('51663', 'HPE7')",882
+"('50915', 'D-Dimer')",876
+"('51658', 'HPE2')",825
+"('50994', 'Thyroxine (T4)')",812
+"('51001', 'Triiodothyronine (T3)')",799
+"('51865', 'Influenza A by PCR')",794
+"('51873', 'Influenza B by PCR')",794
+"('51518', 'WBC Clumps')",769
+"('51098', 'Prot. Electrophoresis, Urine')",759
+"('50988', 'Testosterone')",748
+"('50937', 'Hepatitis A Virus Antibody')",727
+"('51469', 'Calcium Oxalate Crystals')",693
+"('52281', 'Polys')",690
+"('52272', 'Monocytes')",690
+"('52264', 'Lymphs')",690
+"('52286', 'Total Nucleated Cells, CSF')",689
+"('52285', 'RBC, CSF')",687
+"('51659', 'HPE3')",664
+"('50996', 'Tissue Transglutaminase Ab, IgA')",658
+"('50927', 'Gamma Glutamyltransferase')",644
+"('51148', 'Blasts')",644
+"('51008', 'Valproic Acid')",642
+"('51479', 'Granular Casts')",635
+"('51752', 'Voided Specimen')",620
+"('51197', 'Elliptocytes')",619
+"('51292', 'Spherocytes')",598
+"('51625', 'Free Kappa')",589
+"('51627', 'Free Lambda')",588
+"('51626', 'Free Kappa/Free Lambda Ratio')",588
+"('50917', 'Digoxin')",583
+"('51219', 'H/O Smear')",568
+"('51145', 'Basophilic Stippling')",565
+"('51736', 'STX5')",522
+"('51735', 'STX4')",520
+"('51802', 'Total Protein, CSF')",520
+"('50892', 'CA-125')",516
+"('50823', 'Required O2')",500
+"('51790', 'Glucose, CSF')",500
+"('50801', 'Alveolar-arterial Gradient')",498
+"('50891', 'C4')",482
+"('51108', 'Urine Volume')",476
+"('51094', 'pH')",472
+"('50973', 'Prolactin')",458
+"('50890', 'C3')",457
+"('51134', 'Acanthocytes')",447
+"('52065', 'Total Nucleated Cells, Ascites')",436
+"('51125', 'Polys')",436
+"('51120', 'Monocytes')",436
+"('51116', 'Lymphocytes')",436
+"('51127', 'RBC, Ascites')",429
+"('51598', 'Cytomegalovirus Viral Load')",423
+"('50948', 'Immunofixation')",407
+"('51196', 'D-Dimer')",400
+"('51067', '24 hr Creatinine')",399
+"('50898', 'Cancer Antigen 27.29')",392
+"('51879', 'Neisseria gonorrhoeae')",392
+"('50815', 'O2 Flow')",391
+"('51846', 'Chlamydia trachomatis')",391
+"('51903', 'PAN1')",391
+"('50957', 'Lithium')",387
+"('51089', 'Marijuana')",385
+"('50980', 'Rheumatoid Factor')",379
+"('51117', 'Macrophage')",364
+"('50926', 'Follicle Stimulating Hormone')",358
+"('50982', 'Sex Hormone Binding Globulin')",353
+"('51446', 'Lymphocytes')",350
+"('51450', 'Monos')",350
+"('51455', 'Polys')",350
+"('52391', 'Total Nucleated Cells, Pleural')",350
+"('51259', 'Other Cells')",350
+"('50894', 'Calculated Free Testosterone')",345
+"('50881', 'Beta-2 Microglobulin')",341
+"('50961', 'Methotrexate')",338
+"('51054', 'Lactate Dehydrogenase, Pleural')",336
+"('51269', 'Promyelocytes')",332
+"('51059', 'Total Protein, Pleural')",331
+"('50895', 'Calculated TBG')",322
+"('51005', 'Uptake Ratio')",321
+"('50966', 'Phenobarbital')",320
+"('50896', 'Calculated Thyroxine (T4) Index')",320
+"('51457', 'RBC, Pleural')",319
+"('51147', 'Bite Cells')",313
+"('51474', 'Eosinophils')",306
+"('50918', 'Double Stranded DNA')",300
+"('51240', 'Large Platelets')",299
+"('50932', 'Gray Top Hold (plasma)')",298
+"('51053', 'Glucose, Pleural')",297
+"('52018', 'PAN1')",291
+"('51986', 'Neisseria gonorrhoeae')",290
+"('51497', 'Renal Epithelial Cells')",288
+"('50849', 'Total Protein, Ascites')",288
+"('51972', 'Chlamydia trachomatis')",288
+"('50872', 'Anti-Neutrophil Cytoplasmic Antibody')",286
+"('51118', 'Mesothelial Cell')",282
+"('50877', 'Anti-Thyroglobulin Antibodies')",280
+"('50876', 'Anti-Smooth Muscle Antibody')",270
+"('50874', 'Anti-Nuclear Antibody, Titer')",267
+"('51086', 'Immunofixation, Urine')",266
+"('51447', 'Macrophages')",261
+"('50958', 'Luteinizing Hormone')",255
+"('52312', 'Total Nucleated Cells, Joint')",251
+"('51375', 'Lymphocytes')",250
+"('51379', 'Monocytes')",250
+"('51382', 'Polys')",250
+"('52036', 'Voided Specimen')",250
+"('50866', 'Ammonia')",246
+"('51660', 'HPE4')",244
+"('50835', 'Albumin, Ascites')",239
+"('51227', 'Hemogloblin S')",238
+"('51226', 'Hemogloblin A')",238
+"('51224', 'Hemoglobin C')",238
+"('50871', 'Anti-Mitochondrial Antibody')",236
+"('50805', 'Carboxyhemoglobin')",234
+"('51383', 'RBC, Joint Fluid')",224
+"('50938', 'Hepatitis A Virus IgM Antibody')",224
+"('50831', 'pH')",223
+"('51231', 'Howell-Jolly Bodies')",221
+"('51373', 'Joint Crystals, Number')",217
+"('50992', 'Thyroid Peroxidase Antibodies')",214
+"('51068', '24 hr Protein')",213
+"('51077', 'Calcium, Urine')",210
+"('51424', 'Immunophenotyping')",208
+"('51338', 'Immunophenotyping')",205
+"('51046', 'Albumin, Pleural')",204
+"('51216', 'Fragmented Cells')",203
+"('50814', 'Methemoglobin')",202
+"('51513', 'Urine Specimen Type')",201
+"('50991', 'Thyroglobulin')",200
+"('51150', 'Blood Parasite Smear')",197
+"('51261', 'Pappenheimer Bodies')",191
+"('51448', 'Mesothelial Cells')",189
+"('50842', 'Glucose, Ascites')",186
+"('52024', 'Creatinine, Whole Blood')",185
+"('52220', 'wbcp')",184
+"('51436', 'Polys')",174
+"('51431', 'Monos')",174
+"('51427', 'Lymphocytes')",174
+"('51051', 'Cholesterol, Pleural')",173
+"('51651', 'Hepatitis C Viral Load')",172
+"('51213', 'Fibrin Degradation Products')",170
+"('52425', 'XUCU')",168
+"('51236', 'Inpatient Hematology/Oncology Smear')",167
+"('50899', 'Carbamazepine')",167
+"('51243', 'Lupus Anticoagulant')",158
+"('51748', 'Treponema pallidum (Syphilis) Ab')",156
+"('51225', 'Hemoglobin F')",155
+"('51749', 'Treponema pallidum (syphilis) value')",155
+"('50939', 'Hepatitis B Core Antibody, IgM')",151
+"('52026', 'Estimated GFR (MDRD equation)')",151
+"('51223', 'Hemoglobin A2')",149
+"('51095', 'Phosphate, Urine')",148
+"('52014', 'Voided Specimen')",148
+"('51648', 'Hepatitis B Viral Load')",148
+"('51460', 'Blood, Occult')",145
+"('51228', 'Heparin')",144
+"('50843', 'Lactate Dehydrogenase, Ascites')",143
+"('52266', 'Macrophage')",142
+"('50921', 'Estradiol')",139
+"('51234', 'Immunophenotyping')",136
+"('50929', 'Gentamicin')",127
+"('51411', 'CD45')",124
+"('51284', 'Reticulocyte Count, Manual')",123
+"('51276', 'Quantitative G6PD')",118
+"('51428', 'Macrophage')",118
+"('51453', 'Other')",118
+"('51933', 'C. diff PCR')",118
+"('51376', 'Macrophage')",117
+"('51398', 'CD19')",117
+"('51289', 'Serum Viscosity')",114
+"('51795', 'Lactate Dehydrogenase, CSF')",111
+"('51198', 'Envelope Cells')",110
+"('50836', 'Amylase, Ascites')",107
+"('51956', 'CDT027')",107
+"('51899', 'Trichomonas vaginalis')",106
+"('51904', 'PAN2')",106
+"('51839', 'Anat Path Hold')",106
+"('51123', 'Other')",105
+"('51342', 'Wright Giemsa')",105
+"('51425', 'Kappa')",104
+"('51426', 'Lambda')",104
+"('52195', 'Voided Specimen')",103
+"('50989', 'Testosterone, Free')",101
+"('51444', 'Eosinophils')",97
+"('51076', 'Bicarbonate, Urine')",97
+"('51229', 'Heparin, LMW')",96
+"('52427', 'UCU2')",96
+"('50997', 'Tobramycin')",95
+"('50841', 'Creatinine, Ascites')",94
+"('51505', 'Uric Acid Crystals')",94
+"('50838', 'Bilirubin, Total, Ascites')",91
+"('51138', 'Anticardiolipin Antibody IgG')",91
+"('51139', 'Anticardiolipin Antibody IgM')",91
+"('51066', '24 hr Calcium')",88
+"('51325', 'CD45')",86
+"('51263', 'Plasma Cells')",83
+"('51662', 'HPE6')",82
+"('51047', 'Amylase, Pleural')",81
+"('51140', 'Antithrombin')",80
+"('51654', 'HIV 1 Viral Load')",80
+"('52012', 'UTX9')",80
+"('51183', 'CD45')",78
+"('50913', 'Cryoglobulin')",78
+"('51262', 'Pencil Cells')",78
+"('51088', 'Magnesium, Urine')",77
+"('52278', 'Other')",77
+"('51164', 'CD19')",76
+"('50945', 'Homocysteine')",76
+"('51412', 'CD5')",76
+"('51184', 'CD5')",75
+"('51152', 'CD10')",74
+"('51168', 'CD20')",74
+"('51238', 'Kappa')",74
+"('51239', 'Lambda')",74
+"('51388', 'CD10')",74
+"('50916', 'DHEA-Sulfate')",74
+"('51230', 'HLA-DR')",73
+"('51946', 'Norovirus Genogroup II')",73
+"('51945', 'Norovirus Genogroup I')",73
+"('51400', 'CD20')",73
+"('51060', 'Triglycerides, Pleural')",73
+"('51206', 'Factor VIII')",72
+"('52424', 'RFXUCU')",72
+"('51404', 'CD3')",71
+"('50857', 'Acetone')",69
+"('52369', 'Total Nucleated Cells, Other')",68
+"('51313', 'CD19')",67
+"('51297', 'Thrombin')",66
+"('51114', 'Eosinophils')",65
+"('51337', 'HLA-DR')",65
+"('51172', 'CD23')",64
+"('51319', 'CD3')",64
+"('51215', 'FMC-7')",63
+"('51052', 'Creatinine, Pleural')",63
+"('50869', 'Anti-DGP (IgA/IgG)')",62
+"('52955', 'CD10')",61
+"('51423', 'HLA-DR')",60
+"('51402', 'CD23')",60
+"('51315', 'CD20')",59
+"('51420', 'FMC-7')",59
+"('51341', 'Lambda')",59
+"('51340', 'Kappa')",59
+"('51056', 'Miscellaneous, Pleural')",59
+"('51105', 'Uric Acid, Urine')",58
+"('51192', 'CD7')",58
+"('51438', 'RBC, Other Fluid')",58
+"('51167', 'CD2')",57
+"('51434', 'Other Cell')",57
+"('51271', 'Protein C, Functional')",57
+"('51326', 'CD5')",57
+"('51722', 'RFXLDLM')",56
+"('51273', 'Protein S, Functional')",56
+"('51406', 'CD34')",55
+"('51921', 'proBNP, Pleural')",55
+"('51372', 'Joint Crystals, Location')",54
+"('51371', 'Joint Crystals, Comment')",54
+"('51370', 'Joint Crystals, Birefringence')",54
+"('51374', 'Joint Crystals, Shape')",54
+"('51419', 'Eosinophils')",53
+"('52256', 'Eosinophils')",53
+"('51291', 'Sickle Cells')",53
+"('51175', 'CD3 Absolute Count')",51
+"('51174', 'CD3 %')",51
+"('51033', 'FetalFN')",49
+"('51503', 'Triple Phosphate Crystals')",49
+"('52019', 'PAN2')",48
+"('51996', 'Trichomonas vaginalis')",48
+"('51317', 'CD23')",48
+"('51335', 'FMC-7')",48
+"('51445', 'Hematocrit, Pleural')",46
+"('50968', 'Phenytoin, Free')",46
+"('51980', 'Fentanyl')",46
+"('52020', 'UTX10')",46
+"('50969', 'Phenytoin, Percent Free')",44
+"('52123', 'G6PD, Qualitative')",44
+"('51399', 'CD2')",43
+"('51768', 'EE6')",43
+"('51163', 'CD16/56%')",43
+"('51162', 'CD16/56 Absolute Count')",43
+"('51416', 'CD7')",42
+"('51689', 'Lyme G and M Value')",42
+"('51688', 'Lyme C6 Ab')",42
+"('51769', 'RUBIgGV')",42
+"('51724', 'Rubella IgG Ab')",42
+"('51499', 'Sperm')",42
+"('51381', 'Other')",41
+"('51753', 'VZV IgG Ab')",41
+"('51754', 'VZV IgG Ab Value')",41
+"('51429', 'Mesothelial cells')",40
+"('51026', 'Amylase, Body Fluid')",40
+"('51586', 'CMV IgG Ab')",40
+"('51587', 'CMV IgG Ab Value')",40
+"('51762', 'EE1')",39
+"('52992', 'Iron Stain')",39
+"('51664', 'HPE8')",38
+"('52221', 'Atypical Lymphocytes')",38
+"('51661', 'HPE5')",36
+"('51368', 'Eosinophils')",36
+"('51763', 'EE2')",35
+"('51321', 'CD34')",34
+"('51307', 'CD13')",34
+"('51894', 'Strep A, Rapid Antigen')",34
+"('51590', 'CMV Interpretation')",33
+"('51588', 'CMV IgM Ab')",33
+"('51299', 'Von Willebrand Factor Antigen')",33
+"('52087', 'CD15/56')",32
+"('52419', 'Voided Specimen')",32
+"('51798', 'PEP, CSF')",32
+"('51471', 'Cellular Cast')",31
+"('51893', 'Staph aureus PCR')",31
+"('51877', 'MRSA PCR')",31
+"('51614', 'Epstein-Barr Virus  EBNA IgG Ab')",31
+"('51615', 'Epstein-Barr Virus EBNA IgG Ab')",31
+"('51616', 'Epstein-Barr Virus IgG Ab Value')",31
+"('51617', 'Epstein-Barr Virus IgM Ab Value')",31
+"('51618', 'Epstein-Barr Virus Interpretation')",31
+"('51619', 'Epstein-Barr Virus VCA IgG Ab')",31
+"('51620', 'Epstein-Barr Virus VCA IgM Ab')",31
+"('51096', 'Porphobilinogen Screen')",31
+"('51298', 'Von Willebrand Factor Activity')",31
+"('51165', 'CD19 %')",31
+"('51166', 'CD19 Absolute Count')",31
+"('51169', 'CD20 %')",31
+"('51170', 'CD20 Absolute Count')",31
+"('51332', 'CD7')",30
+"('51247', 'MacroOvalocytes')",30
+"('51290', 'Sickle Cell Preparation')",29
+"('51314', 'CD2')",29
+"('51305', 'CD117')",29
+"('51517', 'WBC Casts')",29
+"('51369', 'Hematocrit, Joint Fluid')",28
+"('51320', 'CD33')",28
+"('51310', 'CD15')",28
+"('51235', 'Inhibitor Screen')",28
+"('51579', 'CA 19-9')",28
+"('51481', 'Hemosiderin')",27
+"('51101', 'Total Collection Time')",27
+"('51081', 'Creatinine, Serum')",27
+"('51080', 'Creatinine Clearance')",27
+"('51109', 'Urine Volume, Total')",27
+"('51106', 'Urine Creatinine')",27
+"('51764', 'EE7')",27
+"('52426', 'UCU1')",27
+"('51489', 'NonSquamous Epithelial Cell')",26
+"('51199', 'Eosinophil Count')",26
+"('51124', 'Plasma')",25
+"('51043', 'Total Protein, Body Fluid')",24
+"('51309', 'CD14')",24
+"('51028', 'Bilirubin, Total, Body Fluid')",24
+"('51745', 'Toxoplasma Interpretation')",24
+"('51742', 'Toxoplasma IgG Ab Value')",24
+"('51741', 'Toxoplasma IgG Ab')",24
+"('51091', 'Myoglobin, Urine')",22
+"('50855', 'Absolute Hemoglobin')",21
+"('50854', 'Absolute A1c')",21
+"('51725', 'Rubeola IgG Ab')",21
+"('51726', 'Rubeola IgG Ab Value')",21
+"('51454', 'Plasma Cells')",21
+"('51034', 'Glucose, Body Fluid')",21
+"('51188', 'CD56')",21
+"('51035', 'LD, Body Fluid')",20
+"('51442', 'Basophils')",20
+"('52223', 'Bands')",20
+"('52262', 'Immunophenotyping')",20
+"('50865', 'Amikacin')",20
+"('51772', 'PAN3')",20
+"('51110', 'Atypical Lymphocytes')",19
+"('51264', 'Platelet Clumps')",19
+"('51509', 'Urine Comments')",19
+"('51204', 'Factor V')",19
+"('51323', 'CD4')",18
+"('51025', 'Albumin, Body Fluid')",18
+"('51693', 'Mumps IgG Ab')",18
+"('51694', 'Mumps IgG Ab Value')",18
+"('51232', 'Hypersegmented Neutrophils')",17
+"('51796', 'Miscellaneous, CSF')",17
+"('52131', 'HIT-Ab Interpreted Result')",16
+"('52132', 'HIT-Ab Numerical Result')",16
+"('51422', 'Hematocrit, Other Fluid')",16
+"('50850', 'Triglycerides, Ascites')",16
+"('51638', 'Hematocrit')",16
+"('51645', 'Hemoglobin, Calculated')",16
+"('52569', 'Glucose')",16
+"('52610', 'Potassium')",16
+"('52623', 'Sodium')",16
+"('51895', 'Strep A, Rapid Antigen')",16
+"('51115', 'Hematocrit, Ascites')",16
+"('51953', 'Voided Specimen')",16
+"('51510', 'Urine Crystals, Other')",16
+"('51934', 'C Diff Toxin Antigen Assay')",16
+"('51032', 'Creatinine, Body Fluid')",16
+"('50901', 'Centromere')",15
+"('51507', 'Urine Casts, Other')",15
+"('51334', 'CD8')",15
+"('51178', 'CD34')",15
+"('51156', 'CD13')",15
+"('51901', 'Voided Specimen')",15
+"('51666', 'H. pylori IgG Ab')",14
+"('51306', 'CD11c')",14
+"('51159', 'CD15')",14
+"('51154', 'CD117')",14
+"('51189', 'CD57')",14
+"('51981', 'Glucose')",14
+"('51984', 'Ketone')",14
+"('51985', 'Leukocytes')",14
+"('51987', 'Nitrite')",14
+"('51967', 'Blood')",14
+"('51624', 'Free Calcium')",14
+"('51739', 'Total CO2')",14
+"('52500', 'Anion Gap')",14
+"('52535', 'Chloride')",14
+"('52546', 'Creatinine')",14
+"('52647', 'Urea Nitrogen')",14
+"('51966', 'Bilirubin')",14
+"('51992', 'Protein')",14
+"('51994', 'Specific Gravity')",14
+"('52002', 'Urobilinogen')",14
+"('52730', 'pH')",14
+"('52109', 'dRVVT - Screen')",14
+"('51212', 'Fetal Hemoglobin')",14
+"('51677', 'K (GREEN)')",14
+"('51667', 'H. pylori IgG Ab Value')",13
+"('51328', 'CD56')",13
+"('51765', 'EE3')",13
+"('51135', 'ADP')",13
+"('51142', 'Arachadonic Acid')",13
+"('51195', 'Collagen')",13
+"('51207', 'Factor VIII Inhibitor')",13
+"('51191', 'CD64')",12
+"('51177', 'CD33')",12
+"('51158', 'CD14')",12
+"('51567', 'Beta Hydroxybutyrate')",12
+"('51038', 'Miscellaneous, Body Fluid')",12
+"('51386', 'Bands')",11
+"('51869', 'Influenza A, Rapid Antigen')",11
+"('51874', 'Influenza B, Rapid Antigen')",11
+"('51217', 'Glyco A')",11
+"('51193', 'CD71')",11
+"('51182', 'CD41')",11
+"('51155', 'CD11c')",11
+"('51366', 'Bands')",11
+"('52225', 'Basophils')",11
+"('51022', 'Glucose, Joint Fluid')",11
+"('51954', 'CDT027')",11
+"('51063', 'Osmolality, Stool')",11
+"('51112', 'Basophils')",11
+"('51333', 'CD71')",10
+"('51324', 'CD41')",10
+"('51418', 'CD8')",10
+"('51408', 'CD4')",10
+"('50962', 'N-Acetylprocainamide (NAPA)')",10
+"('50972', 'Procainamide')",10
+"('51049', 'Bilirubin, Total, Pleural')",10
+"('51367', 'Basophils')",10
+"('52279', 'Plasma')",10
+"('51331', 'CD64')",9
+"('51494', 'RBC Casts')",9
+"('51161', 'CD16')",9
+"('51205', 'Factor VII')",9
+"('51185', 'CD5 %')",9
+"('51186', 'CD5 Absolute Count')",9
+"('51755', 'White Blood Cells')",9
+"('51242', 'LUC')",9
+"('51111', 'Bands')",8
+"('51864', 'Influenza A by PCR')",8
+"('51872', 'Influenza B by PCR')",8
+"('51270', 'Protein C, Antigen')",8
+"('52176', 'Rouleaux')",8
+"('51220', 'Heinz Body Prep')",8
+"('52358', 'Lining Cell')",8
+"('51392', 'CD13')",8
+"('51441', 'Bands')",8
+"('51065', 'Sodium, Stool')",8
+"('51272', 'Protein S, Antigen')",8
+"('51502', 'Trichomonas')",7
+"('51652', 'High-Sensitivity CRP')",7
+"('51336', 'Glyco A')",7
+"('51440', 'Atypical Lymphocytes')",7
+"('50888', 'Blue Top Hold Frozen')",7
+"('52270', 'Metamyelocytes')",7
+"('51179', 'CD38')",7
+"('52179', 'SCT - Screen')",7
+"('51465', 'Bilirubin Crystals')",6
+"('51084', 'Glucose, Urine')",6
+"('51744', 'Toxoplasma IgM Ab Value')",6
+"('51743', 'Toxoplasma IgM Ab')",6
+"('52107', 'dRVVT - Confirmation')",6
+"('52108', 'dRVVT - Normalized Ratio')",6
+"('52720', 'HCG, Urine, Qualitative')",6
+"('51385', 'Atypical Lymphocytes')",6
+"('51377', 'Mesothelial Cells')",6
+"('51515', 'Waxy Casts')",6
+"('51064', 'Potassium, Stool')",6
+"('51302', 'Young Cells')",5
+"('51312', 'CD16/56')",5
+"('52642', 'Troponin I')",5
+"('51452', 'NRBC')",5
+"('51488', 'Non-squamous Epithelial Cells')",5
+"('52181', 'Stomatocyte')",5
+"('51365', 'Atypical Lymphocytes')",5
+"('51024', 'Total Protein, Joint Fluid')",5
+"('51062', 'Chloride, Stool')",5
+"('51467', 'Broad Casts')",5
+"('51208', 'Factor X')",5
+"('51875', 'Influenza B, Rapid Antigen')",5
+"('51870', 'Influenza A, Rapid Antigen')",5
+"('50875', 'Anti-Parietal Cell Antibody')",5
+"('51767', 'EE5')",5
+"('52335', 'TdT')",4
+"('51295', 'TdT')",4
+"('51202', 'Factor II')",4
+"('52301', 'Lining Cell')",4
+"('52227', 'Blasts')",4
+"('51511', 'Urine Fat Bodies')",4
+"('51655', 'HIV 2 Ab Confirmation')",4
+"('51653', 'HIV 1 Ab Confirmation')",4
+"('51397', 'CD16/56')",3
+"('51692', 'Monospot, Rapid Antigen')",3
+"('51413', 'CD56')",3
+"('50870', 'Anti-Gliadin Antibody, IgA')",3
+"('51318', 'CD25')",3
+"('51190', 'CD59')",3
+"('51187', 'CD55')",3
+"('52276', 'NRBC')",3
+"('52268', 'Mesothelial cells')",3
+"('51322', 'CD38')",3
+"('51061', 'Bicarbonate, Stool')",3
+"('51380', 'NRBC')",3
+"('51621', 'Ethylene Glycol')",3
+"('52263', 'Lining Cell')",3
+"('51387', 'Basophils')",3
+"('51475', 'Epithelial Casts')",3
+"('51433', 'NRBC')",3
+"('51023', 'LD, Joint Fluid')",3
+"('52043', 'Voided Specimen')",3
+"('51201', 'Epinepherine')",3
+"('51286', 'Ristocetin')",3
+"('51149', 'Bleeding Time')",3
+"('50990', 'Theophylline')",3
+"('52129', 'Hemoglobin Other')",2
+"('53144', 'ANCA Titer')",2
+"('52274', 'Myelocytes')",2
+"('51304', 'CD103')",2
+"('51316', 'CD22')",2
+"('52311', 'Promyelocytes')",2
+"('51456', 'Promyelocytes')",2
+"('51126', 'Promyelocytes')",2
+"('51470', 'Calcium Phosphate Crystals')",2
+"('51395', 'CD15')",2
+"('51390', 'CD117')",2
+"('51713', 'Reflex Confirmatory Hepatitis C Viral Load')",2
+"('51806', 'Voided Specimen')",2
+"('52305', 'Myelocytes')",2
+"('51378', 'Metamyelocytes')",2
+"('51495', 'RBC Clumps')",2
+"('51211', 'Factor XIII')",2
+"('51407', 'CD38')",2
+"('51393', 'CD138')",2
+"('51435', 'Plasma')",2
+"('51203', 'Factor IX')",2
+"('51209', 'Factor XI')",2
+"('51210', 'Factor XII')",2
+"('50844', 'Lipase, Ascites')",2
+"('51072', 'Amylase, Urine')",2
+"('51073', 'Amylase/Creatinine Ratio, Urine')",2
+"('52257', 'Hematocrit, CSF')",2
+"('51057', 'Potassium, Pleural')",2
+"('51058', 'Sodium, Pleural')",2
+"('51311', 'CD16')",2
+"('51437', 'Promyelocytes')",2
+"('51405', 'CD33')",1
+"('51391', 'CD11c')",1
+"('51394', 'CD14')",1
+"('51410', 'CD41')",1
+"('51421', 'Glyco A')",1
+"('51417', 'CD71')",1
+"('51415', 'CD64')",1
+"('50851', 'Urea Nitrogen, Ascites')",1
+"('51927', 'Albumin, Stool')",1
+"('51480', 'Hematocrit')",1
+"('51714', 'Reflex HIV Confirmation')",1
+"('53154', 'Lactate')",1
+"('51121', 'Myelocytes')",1
+"('51036', 'Lipase, Body Fluid')",1
+"('51776', '<Albumin>')",1
+"('50959', 'Macro Prolactin')",1
+"('50845', 'Miscellaneous, Ascites')",1
+"('51173', 'CD25')",1
+"('51461', 'Ammonium Biurate')",1
+"('51675', 'INR(PT)')",1
+"('51504', 'Tyrosine Crystals')",1
+"('51241', 'Leukocyte Alkaline Phosphatase')",1
+"('51483', 'Hyphenated Yeast')",1
+"('51258', 'Osmotic Fragility')",1
+"('51048', 'Bicarbonate, Pleural')",1
+"('51050', 'Chloride, Pleural')",1
+"('51432', 'Myelocytes')",1
+"('51045', 'Urea Nitrogen, Body Fluid')",1
+"('51044', 'Triglycer')",1
+"('51430', 'Metamyelocytes')",1
+"('51122', 'Nucleated RBC')",1
+"('53127', 'Voided Specimen')",1
+"('51329', 'CD57')",1

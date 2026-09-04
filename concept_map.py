@@ -70,26 +70,23 @@ CONCEPT_MAP = {
             "name_column": "celllabel",
             "include_if_contains": ["urine", "foley", "void"],
             # VERIFIED TRAPS: these are COUNTS or yes/no FLAGS, not volumes
-            # in mL. Confirmed by implausibly small sample values (0-2).
+            # in mL. Confirmed by implausibly small sample values (0-2),
+            # or (for 'Urine Count') by a 20-sample check where 19/20
+            # values were exactly 1.0 with a single 650.0 outlier — a
+            # textbook count distribution, not a volume distribution.
             "exclude_values_normalized": [
                 "number of incontinent voids",
                 "incontinent urine",
                 "urine incontinence",
                 "urine occurrence",
-                "urine count",  # lowercase variant only — see AMBIGUOUS below
+                "urine count",  # RESOLVED: both cases confirmed as counts
             ],
-            # AMBIGUOUS — needs a follow-up check before deciding:
-            # 'Urine Count' (capitalized) had sample_value=650, which is
-            # far too large to be a real count. Likely a DIFFERENT site's
-            # flowsheet reusing a similar-looking label for an actual
-            # volume. Pull a larger sample of this exact label before
-            # deciding whether to include or exclude it.
-            "pending_review": ["Urine Count"],
             "expected_unit": "ml",
             "unit_verification_status": (
-                "CONFIRMED for most labels — sample values (tens to "
-                "low-thousands) look like plausible urine volumes in mL. "
-                "Still pending: the 'Urine Count' ambiguity above."
+                "CONFIRMED — sample values for all included labels look "
+                "like plausible urine volumes in mL (tens to low-thousands). "
+                "Creatinine + urine output mapping is now COMPLETE for "
+                "both MIMIC-FHIR and eICU-CRD."
             ),
         },
     },
@@ -116,6 +113,82 @@ CONCEPT_MAP = {
 #   time (not draw time) — confirm against the eICU data dictionary
 #   before relying on this for real training.
 #
+# ---------------------------------------------------------------------------
+# Chartevents category scoping
+# ---------------------------------------------------------------------------
+#
+# Derived from a real category-level inventory (inventory_concepts.py) —
+# chartevents mixes genuine physiological signal with a LARGE volume of
+# nursing documentation/workflow items (e.g. "Restraint/Support Systems"
+# was more frequent than Heart Rate). This is CATEGORY-LEVEL scoping,
+# not per-variable feature selection — excluding a whole class of
+# non-clinical documentation, not cherry-picking predictive columns.
+
+CHARTEVENTS_CATEGORY_SCOPE = {
+    # COMPLETE — all 35 categories from the full inventory are classified below.
+    "include": [
+        "Routine Vital Signs",
+        "Respiratory",
+        "Pulmonary",
+        "Cardiovascular",
+        "Cardiovascular (Pulses)",
+        "Cardiovascular (Pacer Data)",
+        "GI/GU",
+        "Pain/Sedation",
+        "Neurological",
+        "Hemodynamics",
+        "Toxicology",  # nephrotoxic drug level monitoring — directly relevant
+        # Mechanical circulatory support devices — hemodynamically critical
+        # patients, high AKI incidence via perfusion-dependent injury:
+        "Impella",
+        "Heartware",
+        "IABP",
+        "ECMO",
+        "NICOM",
+        "Tandem Heart",  # n=1 in this sample, negligible but harmless to include
+    ],
+    "exclude": [
+        "Restraint/Support Systems",
+        "Care Plans",
+        "Alarms",
+        "Skin - Assessment",
+        "Skin - Impairment",
+        "Skin - Incisions",
+        "Access Lines - Invasive",
+        "Access Lines - Peripheral",
+        "Adm History/FHPA",
+        # Free-text notes / niche non-ICU-general categories — out of scope,
+        # consistent with the project-wide "no free text" decision:
+        "MD Progress Note",
+        "OB-GYN",
+        "OT Notes",
+        "Swallow Evaluation",
+        "RNTriggerNote",
+    ],
+    "needs_review": [
+        "Treatments",  # too generic to classify by name alone — inspect sample records
+        "General",     # same — inspect sample records before deciding
+    ],
+    "special_handling": {
+        "Dialysis": (
+            "NOT a plain include/exclude. (1) Used as a COHORT EXCLUSION "
+            "signal — patients on dialysis before/at admission should be "
+            "excluded entirely, matching the source AKI paper's exclusion "
+            "criteria (maintenance HD patients don't fit a de novo AKI "
+            "prediction task). (2) Used as a FEATURE for patients who "
+            "start dialysis DURING the stay as a treatment response."
+        ),
+        "Labs": (
+            "PENDING — this chartevents category appears to duplicate real "
+            "labevents values (e.g. potassium, HCO3 seen under both). "
+            "Need to check whether these are genuinely separate point-of-"
+            "care/bedside draws or re-entered duplicates of the same lab "
+            "before deciding whether to include, exclude, or deduplicate."
+        ),
+    },
+}
+
+
 # ---------------------------------------------------------------------------
 # Structural notes (see full write-up in chat / project doc)
 # ---------------------------------------------------------------------------

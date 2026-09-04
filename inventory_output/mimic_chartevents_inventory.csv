@@ -1,0 +1,1801 @@
+concept,count
+"('227969', 'Safety Measures')",140236
+"('220045', 'Heart Rate')",102570
+"('220210', 'Respiratory Rate')",101593
+"('220277', 'O2 saturation pulseoxymetry')",100308
+"('220048', 'Heart Rhythm')",92718
+"('224650', 'Ectopy Type 1')",81794
+"('220181', 'Non Invasive Blood Pressure mean')",66997
+"('220179', 'Non Invasive Blood Pressure systolic')",66880
+"('220180', 'Non Invasive Blood Pressure diastolic')",66855
+"('227958', 'Less Restrictive Measures')",59012
+"('224080', 'Head of Bed')",39195
+"('224082', 'Turn')",38839
+"('224086', 'Activity Tolerance')",37410
+"('224093', 'Position')",36547
+"('228905', 'Altered Respiratory Status NCP - Interventions')",34907
+"('220052', 'Arterial Blood Pressure mean')",33147
+"('220050', 'Arterial Blood Pressure systolic')",33053
+"('220051', 'Arterial Blood Pressure diastolic')",33042
+"('223792', 'Pain Management')",30950
+"('228988', 'Safety Restraints NCP - Interventions')",29545
+"('224642', 'Temperature Site')",28977
+"('229381', 'Orientation')",28093
+"('228868', 'Assistance')",26206
+"('220739', 'GCS - Eye Opening')",26167
+"('223900', 'GCS - Verbal Response')",26077
+"('223901', 'GCS - Motor Response')",26014
+"('228928', 'Impaired Tissue Perfusion NCP - Interventions')",25367
+"('224089', 'Anti Embolic Device')",24393
+"('226732', 'O2 Delivery Device(s)')",24370
+"('223781', 'Pain Present')",24311
+"('224641', 'Alarms On')",23639
+"('223761', 'Temperature Fahrenheit')",23533
+"('224168', 'Parameters Checked')",23247
+"('224073', 'Education Topic')",23174
+"('223987', 'RLL Lung Sounds')",23121
+"('223989', 'LLL Lung Sounds')",23096
+"('223986', 'RUL Lung Sounds')",22877
+"('223988', 'LUL Lung Sounds')",22863
+"('227944', 'Side Rails')",22011
+"('224003', 'Abdominal Assessment')",21439
+"('225054', 'Anti Embolic Device Status')",21434
+"('223795', 'Pain Assessment Method')",21243
+"('224001', 'Diet Type')",20171
+"('224088', 'Pressure Reducing Device')",20136
+"('224087', 'Therapeutic Bed')",19871
+"('229321', 'Activity / Mobility (JH-HLM)')",19692
+"('223907', 'Pupil Size Right')",19630
+"('224733', 'Pupil Size Left')",19615
+"('227121', 'Pupil Response Right')",19418
+"('227288', 'Pupil Response Left')",19400
+"('224084', 'Activity')",19304
+"('223783', 'Pain Location')",19155
+"('228947', 'Infection NCP - Interventions')",19032
+"('223999', 'Oral Cavity')",18763
+"('224015', 'Urine Source')",18312
+"('228096', 'Richmond-RAS Scale')",18291
+"('228924', 'Impaired Tissue Perfusion NCP - Expected outcomes')",18152
+"('227947', 'Reason for Restraint (Non-violent)')",18020
+"('224004', 'Bowel Sounds')",17009
+"('223934', 'Dorsal PedPulse R')",15921
+"('224031', 'Edema Location')",15800
+"('226168', 'Oral Care')",15773
+"('227954', 'Status and Comfort')",15771
+"('223943', 'Dorsal PedPulse L')",15750
+"('227955', 'Food and Fluid')",15579
+"('223991', 'Cough Effort')",15384
+"('224026', 'Skin Integrity')",15375
+"('228305', 'ST Segment Monitoring On')",15357
+"('228977', 'Altered Mental Status  NCP - Interventions')",15308
+"('224016', 'Urine Color')",15247
+"('224027', 'Skin Temperature')",15094
+"('228299', 'Goal Richmond-RAS Scale')",15049
+"('224028', 'Skin Color')",14916
+"('224860', 'Skin Condition')",14873
+"('223794', 'Pain Level Acceptable')",14852
+"('228898', 'Impaired Fluid Balance NCP - Interventions')",14388
+"('224876', 'Urine Appearance')",14354
+"('223791', 'Pain Level')",14276
+"('227948', 'Restraint Device (Non-violent)')",14110
+"('223835', 'Inspired O2 Fraction')",13935
+"('224651', 'Ectopy Frequency 1')",13909
+"('227950', 'Restraint Location')",13510
+"('227945', 'Restraint (Non-violent)')",13498
+"('228937', 'Post-op Care NCP - Interventions')",13447
+"('228397', 'Commands Response')",13446
+"('228412', 'Strength R Arm')",13296
+"('223784', 'Pain Cause')",13292
+"('228409', 'Strength L Arm')",13270
+"('228411', 'Strength R Leg')",13266
+"('228410', 'Strength L Leg')",13218
+"('228890', 'Pain NCP - Interventions')",13087
+"('228398', 'Commands')",12864
+"('228414', 'Speech')",12798
+"('224054', 'Braden Sensory Perception')",12790
+"('224055', 'Braden Moisture')",12785
+"('224056', 'Braden Activity')",12784
+"('224057', 'Braden Mobility')",12782
+"('224058', 'Braden Nutrition')",12776
+"('224059', 'Braden Friction/Shear')",12729
+"('228902', 'Altered Respiratory Status NCP - Expected outcomes')",12694
+"('227959', 'Restraints Evaluated')",12500
+"('227951', 'Circulation/Skin Integrity')",12447
+"('227960', 'Patient/Family Informed')",12364
+"('227957', 'Signs of Injury from Intervention')",12352
+"('227952', 'Position Change')",12340
+"('223992', 'Cough Type')",12294
+"('227961', 'Side  Rails')",12222
+"('224000', 'Nares R')",12220
+"('228957', 'Coping/Knowledge Deficit  NCP - Interventions')",12198
+"('227953', 'Range of Motion')",12134
+"('224771', 'RLE Temp')",12121
+"('223782', 'Pain Type')",12056
+"('224773', 'LLE Temp')",12045
+"('224769', 'LUE Temp')",11958
+"('224767', 'RUE Temp')",11948
+"('224879', 'Nares L')",11928
+"('227946', 'Restraint Ordered (Non-violent)')",11857
+"('223979', 'RLE Color')",11855
+"('227956', 'Urinal/Bedpan')",11841
+"('223983', 'LLE Color')",11779
+"('223982', 'LUE Color')",11703
+"('223976', 'RUE Color')",11695
+"('223935', 'PostTib. Pulses R')",11567
+"('225664', 'Glucose finger stick (range 70-100)')",11501
+"('220074', 'Central Venous Pressure')",11463
+"('223947', 'PostTib. Pulses L')",11403
+"('228298', 'Daily Wake Up')",11384
+"('224023', 'Support Systems')",11187
+"('228933', 'Post-op Care NCP - Expected outcomes')",11106
+"('224017', 'GU Catheter Size')",10851
+"('223905', 'Cough Reflex')",10406
+"('220339', 'PEEP set')",10404
+"('223985', 'Respiratory Pattern')",10357
+"('223904', 'Gag Reflex')",10307
+"('223951', 'Capillary Refill R')",10269
+"('224024', 'Family Communication')",10268
+"('223990', 'Respiratory Effort')",10156
+"('224308', 'Capillary Refill L')",10108
+"('227949', 'Face to Face Eval (Non-violent)')",10108
+"('220047', 'Heart Rate Alarm - Low')",10092
+"('220046', 'Heart rate Alarm - High')",10086
+"('223770', 'O2 Saturation Pulseoxymetry Alarm - Low')",9994
+"('223769', 'O2 Saturation Pulseoxymetry Alarm - High')",9940
+"('224161', 'Resp Alarm - High')",9880
+"('224162', 'Resp Alarm - Low')",9877
+"('224687', 'Minute Volume')",9854
+"('224697', 'Mean Airway Pressure')",9719
+"('226253', 'SpO2 Desat Limit')",9664
+"('224685', 'Tidal Volume (observed)')",9579
+"('227342', 'Secondary diagnosis')",9568
+"('224695', 'Peak Insp. Pressure')",9551
+"('227341', 'History of falling (within 3 mnths)')",9550
+"('227344', 'IV/Saline lock')",9531
+"('227343', 'Ambulatory aid')",9531
+"('227345', 'Gait/Transferring')",9530
+"('227346', 'Mental status')",9493
+"('224689', 'Respiratory Rate (spontaneous)')",9490
+"('220292', 'Minute Volume Alarm - Low')",9455
+"('220293', 'Minute Volume Alarm - High')",9411
+"('223848', 'Ventilator Type')",9404
+"('223873', 'Paw High')",9390
+"('223876', 'Apnea Interval')",9386
+"('223874', 'Vti High')",9183
+"('229322', 'Breathing pattern/effort')",9057
+"('227517', 'Humidification')",9019
+"('224690', 'Respiratory Rate (Total)')",8900
+"('224076', 'Education Barrier')",8890
+"('227968', 'All Medications Tolerated without Adverse Side Effects')",8709
+"('224692', 'Flow Pattern')",8708
+"('223875', 'Fspn High')",8700
+"('228973', 'Altered Mental Status  NCP - Expected outcomes')",8698
+"('224865', 'Flow Sensitivity')",8696
+"('223834', 'O2 Flow')",8668
+"('225978', 'Slope')",8596
+"('223936', 'Radial Pulse R')",8520
+"('227368', '20 Gauge Dressing Occlusive')",8405
+"('224409', 'Pain Level Response')",8397
+"('223948', 'Radial Pulse L')",8389
+"('226138', '20 Gauge placed in outside facility')",8326
+"('228399', 'Facial Droop')",8318
+"('223796', 'Untoward Effect')",8134
+"('224735', 'Flow Rate (variable/fixed)')",8101
+"('228914', 'Altered Skin Integrity NCP - Interventions')",7998
+"('223752', 'Non-Invasive Blood Pressure Alarm - Low')",7883
+"('223751', 'Non-Invasive Blood Pressure Alarm - High')",7879
+"('220001', 'Problem List')",7845
+"('224077', 'Education Method')",7837
+"('224785', 'GI #1 Tube Type')",7813
+"('227240', 'NBP Alarm Source')",7725
+"('224007', 'GI #1 Intub Site')",7688
+"('227700', 'Safety Measures')",7582
+"('224085', 'Assistance Device')",7579
+"('224072', 'Education Learner')",7519
+"('224862', 'Edema Amount')",7504
+"('228894', 'Impaired Fluid Balance NCP - Expected outcomes')",7480
+"('224786', 'GI #1 Tube Status')",7435
+"('224079', 'Education Response')",7352
+"('226104', 'Level of Consciousness')",7346
+"('224415', 'ETT Mark (cm)')",7339
+"('223838', 'ETT Location')",7314
+"('224832', 'ETT Type')",7307
+"('223837', 'ETT Size (ID)')",7298
+"('223898', 'Orientation')",7298
+"('228332', 'Delirium assessment')",7289
+"('228100', '20 Gauge placed in the field')",7245
+"('224373', 'Sputum Amount')",7163
+"('224372', 'Sputum Source')",7144
+"('224281', 'Multi Lumen Site Appear')",7033
+"('223902', 'Speech')",7011
+"('227442', 'Potassium (serum)')",6926
+"('220645', 'Sodium (serum)')",6918
+"('220602', 'Chloride (serum)')",6848
+"('224289', 'Arterial line Site Appear')",6773
+"('223911', 'Spontaneous Movement')",6738
+"('226169', 'Subglottal Suctioning')",6597
+"('220545', 'Hematocrit (serum)')",6518
+"('223849', 'Ventilator Mode')",6518
+"('220228', 'Hemoglobin')",6505
+"('224370', 'Sputum Color')",6497
+"('227443', 'HCO3 (serum)')",6485
+"('220615', 'Creatinine (serum)')",6460
+"('226113', 'Multi Lumen placed in outside facility')",6439
+"('223916', 'Response to Stimuli (Type)')",6438
+"('225624', 'BUN')",6437
+"('227073', 'Anion gap')",6435
+"('220621', 'Glucose (serum)')",6423
+"('223872', 'Inspired Gas Temp.')",6412
+"('224291', 'Arterial line Waveform Appear')",6355
+"('224040', 'Incision Closure #1')",6354
+"('224756', 'Response')",6339
+"('226107', 'Arterial Line placed in outside facility')",6269
+"('224369', 'Sputum Consistency')",6265
+"('224848', 'Incision Appearance #1')",6221
+"('220635', 'Magnesium')",6219
+"('229604', 'Therapeutic Bed')",5950
+"('224005', 'Flatus')",5937
+"('229126', 'Altered Sensory Perception NCP - Interventions')",5905
+"('227756', 'Multi Lumen Placement Confirmed by X-ray')",5899
+"('225677', 'Phosphorous')",5887
+"('225625', 'Calcium non-ionized')",5863
+"('223917', 'RU Strength/Movement')",5857
+"('223919', 'LU Strength/Movement')",5856
+"('223918', 'RL Strength/Movement')",5853
+"('223920', 'LL Strength/Movement')",5850
+"('227457', 'Platelet Count')",5844
+"('228943', 'Infection NCP - Expected outcomes')",5824
+"('228983', 'Safety Restraints NCP - Expected outcomes')",5766
+"('220546', 'WBC')",5759
+"('224688', 'Respiratory Rate (Set)')",5520
+"('226814', 'Known difficult intubation')",5473
+"('227367', '18 Gauge Dressing Occlusive')",5456
+"('226137', '18 Gauge placed in outside facility')",5440
+"('228394', 'Orientation to Person')",5391
+"('224684', 'Tidal Volume (set)')",5281
+"('224701', 'PSV Level')",5257
+"('228953', 'Coping/Knowledge Deficit  NCP - Expected outcomes')",5247
+"('228395', 'Orientation to Place')",5245
+"('224738', 'Inspiratory Time')",5238
+"('228013', '20 G Phlebitis Scale')",5200
+"('228014', '20 G Infiltration Scale')",5170
+"('224686', 'Tidal Volume (spontaneous)')",5157
+"('228396', 'Orientation to Time')",5136
+"('220060', 'Pulmonary Artery Pressure diastolic')",5126
+"('220059', 'Pulmonary Artery Pressure systolic')",5121
+"('220061', 'Pulmonary Artery Pressure mean')",5023
+"('228306', 'Assistance Device')",5014
+"('228405', 'Motor L Leg')",4945
+"('228404', 'Motor L Arm')",4940
+"('228406', 'Motor R Arm')",4929
+"('228393', 'Bath')",4926
+"('228407', 'Motor R Leg')",4925
+"('227292', 'Arterial Line Dressing Occlusive')",4846
+"('229354', 'Foley Cath Insertion Location')",4821
+"('224283', 'Multi Lumen Waveform Appear')",4744
+"('229652', 'Stroke NCP - Interventions')",4737
+"('229245', 'Humidifier Water % Fill Level')",4646
+"('228099', '18 Gauge placed in the field')",4619
+"('223753', 'Riker-SAS Scale')",4617
+"('229244', 'Humidifier Water Changed')",4572
+"('223762', 'Temperature Celsius')",4558
+"('228307', 'GI #1 Tube Place Check')",4461
+"('223830', 'PH (Arterial)')",4452
+"('227466', 'PTT')",4419
+"('228559', 'Incision #1- Location')",4377
+"('225184', 'Eye Care')",4348
+"('220235', 'Arterial CO2 Pressure')",4290
+"('220224', 'Arterial O2 pressure')",4290
+"('225698', 'TCO2 (calc) Arterial')",4289
+"('224828', 'Arterial Base Excess')",4289
+"('228911', 'Altered Skin Integrity NCP - Expected outcomes')",4271
+"('224041', 'Incision Drainage #1')",4246
+"('224226', 'Impaired Skin Wound Base #1')",4230
+"('228879', 'Education Readiness/Motivation')",4209
+"('228496', 'Impaired Skin #1- Location')",4204
+"('224565', 'Surrounding Tissue #1')",4200
+"('228880', 'Education Existing Knowledge')",4141
+"('227467', 'INR')",4031
+"('227465', 'Prothrombin time')",4031
+"('227293', 'Multi Lumen Dressing Occlusive')",4000
+"('229314', 'Ventilator Mode (Hamilton)')",3979
+"('224032', 'Impaired Skin Site #1')",3976
+"('228997', 'Discharge NCP - Interventions')",3873
+"('224794', 'Stool Color')",3839
+"('229326', 'CAM-ICU MS Change')",3779
+"('224011', 'Stool Consistency')",3734
+"('228400', 'Visual Field Cut')",3717
+"('227349', 'High risk (>51) interventions')",3712
+"('229323', 'Current Dyspnea Assessment')",3711
+"('224146', 'System Integrity')",3696
+"('225187', 'Back Care')",3683
+"('225185', 'Skin Care')",3632
+"('224564', 'Impaired Skin Odor #1')",3623
+"('228416', 'Corneal Reflex Right')",3554
+"('224639', 'Daily Weight')",3536
+"('228415', 'Corneal Reflex Left')",3532
+"('226457', 'Ultrafiltrate Output')",3527
+"('224259', 'Impaired Skin Drainage #1')",3523
+"('224691', 'Flow Rate (L/min)')",3495
+"('224191', 'Hourly Patient Fluid Removal')",3479
+"('229644', 'Stroke NCP - Expected outcomes')",3479
+"('229369', 'Acuity Workload Question 1')",3461
+"('229370', 'Acuity Workload Question 2')",3459
+"('224696', 'Plateau Pressure')",3445
+"('225183', 'Current Goal')",3432
+"('228571', 'Incision #1- Treatment')",3402
+"('224188', 'PICC Line Site Appear')",3390
+"('224151', 'Effluent Pressure')",3390
+"('224150', 'Filter Pressure')",3390
+"('224149', 'Access Pressure')",3387
+"('224152', 'Return Pressure')",3386
+"('224829', 'Trach Tube Type')",3367
+"('228011', '18 G Phlebitis Scale')",3327
+"('225668', 'Lactic Acid')",3324
+"('224154', 'Dialysate Rate')",3321
+"('228012', '18 G Infiltration Scale')",3316
+"('224153', 'Replacement Rate')",3283
+"('225977', 'Dialysate Fluid')",3281
+"('225976', 'Replacement Fluid')",3281
+"('225312', 'ART BP Mean')",3272
+"('226105', 'Behavior')",3269
+"('225310', 'ART BP Diastolic')",3260
+"('227375', 'Daily Wake Up')",3259
+"('225309', 'ART BP Systolic')",3259
+"('226871', 'Expiratory Ratio')",3211
+"('224144', 'Blood Flow (ml/min)')",3205
+"('225188', 'Cough/Deep Breath')",3201
+"('226873', 'Inspiratory Ratio')",3200
+"('224993', 'Incision Appearance #2')",3200
+"('228401', 'Pronator Drift')",3177
+"('228966', 'Nutrition  NCP - Interventions')",3174
+"('224075', 'Education Readiness')",3158
+"('220765', 'Intra Cranial Pressure')",3121
+"('226115', 'PICC Line placed in outside facility')",3098
+"('225004', 'Incision Closure #2')",3066
+"('224700', 'Total PEEP Level')",3054
+"('227566', 'Ventilator Tank #2')",3019
+"('224038', 'Impaired Skin Treatment #1')",3007
+"('227565', 'Ventilator Tank #1')",3007
+"('225667', 'Ionized Calcium')",3002
+"('220058', 'Arterial Blood Pressure Alarm - High')",3001
+"('220056', 'Arterial Blood Pressure Alarm - Low')",2997
+"('227239', 'ABP Alarm Source')",2963
+"('223754', 'Risk for Falls')",2953
+"('224561', 'Impaired Skin Type #1')",2933
+"('229384', 'Tongue')",2908
+"('227759', 'PICC Line Placement Confirmed by X-ray')",2882
+"('224850', 'Incision Drainage Amount #1')",2867
+"('229091', 'Altered Respiratory Status NCP - Problem resolved')",2864
+"('225231', '20 Gauge Site Appear')",2859
+"('223780', 'Daily Wake Up Deferred')",2835
+"('223903', 'Communication')",2817
+"('225811', 'CV - past medical history')",2800
+"('223910', 'Follows Commands')",2787
+"('228005', 'PBP (Prefilter) Replacement Rate')",2759
+"('228560', 'Incision #2- Location')",2757
+"('229687', 'Pain Assessment Method')",2743
+"('229535', 'Line Type')",2727
+"('224847', 'Impaired Skin Drainage Amount #1')",2726
+"('228006', 'Post Filter Replacement Rate')",2720
+"('223772', 'SvO2')",2676
+"('228004', 'Citrate (ACD-A)')",2676
+"('228594', 'Incision #1- Dressing Status')",2627
+"('225210', 'Arterial Line Zero/Calibrate')",2580
+"('223931', 'Neuro Drain #1 Status')",2543
+"('228337', 'CAM-ICU MS Change')",2478
+"('226329', 'Blood Temperature CCO (C)')",2465
+"('224009', 'GI #1 Tube Drainage')",2428
+"('224842', 'Cardiac Output (CCO)')",2408
+"('229101', 'Impaired Tissue Perfusion NCP - Problem resolved')",2389
+"('224012', 'Stool Management')",2363
+"('224972', 'Surrounding Tissue #2')",2361
+"('229689', 'CPOT-Pain Assessment Method')",2339
+"('229247', 'Trans Membrane Pressure')",2328
+"('229248', 'Pressure Drop')",2326
+"('224830', 'Trach Tube Manufacturer')",2298
+"('224730', 'Corneal Reflex Right')",2291
+"('224831', 'Trach Tube Size (I.D.)')",2285
+"('224930', 'Impaired Skin Site #2')",2264
+"('224958', 'Impaired Skin Wound Base #2')",2234
+"('224731', 'Corneal Reflex Left')",2214
+"('229111', 'Safety Restraints NCP - Problem resolved')",2167
+"('227290', 'CRRT mode')",2166
+"('226139', '22 Gauge placed in outside facility')",2133
+"('229103', 'Infection NCP - Problem resolved')",2130
+"('227369', '22 Gauge Dressing Occlusive')",2128
+"('224391', 'ETT Mark (location)')",2091
+"('229385', 'Shoulder Shrug')",2083
+"('227066', 'Cerebral Perfusion Pressure')",2075
+"('227358', 'PICC Line Dressing Occlusive')",2070
+"('229107', 'Pain NCP - Problem resolved')",2055
+"('229383', 'Extraocular Movements')",2054
+"('225013', 'Incision Drainage #2')",2032
+"('225234', '18 Gauge Site Appear')",2018
+"('229647', 'Stroke NCP - Problem')",2007
+"('228308', 'GI #1 Tube Place Method')",1999
+"('229124', 'Altered Sensory Perception NCP - Expected Outcomes')",1988
+"('227472', 'Incision Site #1')",1985
+"('228529', 'Impaired Skin #1- Treatment')",1984
+"('228101', '22 Gauge placed in the field')",1976
+"('226537', 'Glucose (whole blood)')",1974
+"('228236', 'Insulin pump')",1970
+"('225103', 'Intravenous  / IV access prior to admission')",1966
+"('228497', 'Impaired Skin #2- Location')",1929
+"('227668', 'Side Rails_V2')",1927
+"('228572', 'Incision #2- Treatment')",1923
+"('225059', 'Past medical history')",1914
+"('223926', 'Neuro Drain #1 Type')",1911
+"('224851', 'Dressing Status #1')",1889
+"('224037', 'Impaired Skin Cleanse #1')",1854
+"('225323', 'Dialysis Catheter Site Appear')",1851
+"('229858', 'Therapeutic Bed')",1850
+"('229089', 'Altered Mental Status  NCP - Problem resolved')",1847
+"('224417', 'Cuff Pressure')",1835
+"('224923', 'Impaired Skin Odor #2')",1822
+"('224170', 'MDI #1 Drug')",1805
+"('226531', 'Admission Weight (lbs.)')",1803
+"('224042', 'Incision Dressing #1')",1798
+"('228516', 'Impaired Skin #1- Type')",1789
+"('227464', 'Potassium (whole blood)')",1784
+"('225050', 'Warming Device Status')",1777
+"('220644', 'ALT')",1769
+"('220587', 'AST')",1768
+"('225690', 'Total Bilirubin')",1747
+"('225612', 'Alkaline Phosphate')",1730
+"('223923', 'Seizure Activity')",1718
+"('224902', 'Impaired Skin Drainage #2')",1717
+"('225072', 'Living situation')",1714
+"('223993', 'Chest Tube Site # 1')",1711
+"('228334', 'CAM-ICU Altered LOC')",1709
+"('224937', 'Impaired Skin Treatment #2')",1687
+"('229109', 'Post-op Care NCP - Problem resolved')",1678
+"('224944', 'Impaired Skin Type #2')",1664
+"('227780', 'Impaired Skin  - Dressing Status #1')",1663
+"('224758', 'RUE Sensation')",1661
+"('223997', 'CT #1 Dressing')",1638
+"('224806', 'CT #1 Suction Type')",1634
+"('223996', 'CT #1 Drainage')",1634
+"('223924', 'RLE Sensation')",1633
+"('224759', 'LUE Sensation')",1628
+"('229703', 'CPOT-Pain Management')",1619
+"('223994', 'CT #1 Suction Amount')",1613
+"('229325', 'CAM-ICU Inattention')",1600
+"('224762', 'LLE Sensation')",1598
+"('225092', 'Self ADL')",1596
+"('226118', 'Dialysis Catheter placed in outside facility')",1592
+"('228733', 'Pressure ulcer #1- Wound Base')",1575
+"('223995', 'CT #1 Fluctuate')",1568
+"('229099', 'Impaired Fluid Balance NCP - Problem resolved')",1565
+"('228648', 'Home TF')",1547
+"('227753', 'Dialysis Catheter Placement Confirmed by X-ray')",1544
+"('225189', 'Incentive Spirometry')",1539
+"('224775', 'CT #1 Leak')",1534
+"('228743', 'Pressure ulcer #1- Surrounding tissue')",1526
+"('228595', 'Incision #2- Dressing Status')",1519
+"('225094', 'History of slips / falls')",1502
+"('229300', 'GI #1 Tube Mark (CM)')",1499
+"('228649', 'Pressure Ulcer Present')",1496
+"('223930', 'Neuro Drain #1 Level')",1492
+"('224562', 'Impaired Skin Length #1')",1488
+"('224145', 'Heparin Dose (per hour)')",1486
+"('225097', 'Balance')",1485
+"('224105', 'Warming Device')",1483
+"('225106', 'ETOH')",1477
+"('223932', 'Neuro Drain #1 Drainage')",1469
+"('224994', 'Incision Appearance #3')",1465
+"('228640', 'EtCO2')",1462
+"('224846', 'Impaired Skin Width #1')",1459
+"('225099', 'Judgement')",1446
+"('224109', 'Cervical Collar Type')",1443
+"('225018', 'Incision Drainage Amount #2')",1421
+"('223968', 'Angio Appearance # 1')",1405
+"('223998', 'CT #1 Crepitus')",1397
+"('223967', 'Angio Site # 1')",1391
+"('226479', 'Ectopy Type 2')",1388
+"('228015', '22 G Phlebitis Scale')",1380
+"('225131', 'Teaching directed toward')",1377
+"('228506', 'Pressure Ulcer #1- Location')",1372
+"('228016', '22 G Infiltration Scale')",1368
+"('228402', 'Neurological Symptoms')",1363
+"('224110', 'Cervical Collar Status')",1362
+"('226136', '16 Gauge placed in outside facility')",1356
+"('227366', '16 Gauge Dressing Occlusive')",1356
+"('223970', 'Angio Dressing # 1')",1354
+"('227985', 'Neuro Drain #1 Landmark')",1354
+"('224640', 'Service')",1352
+"('225118', 'Difficulty swallowing')",1350
+"('228993', 'Discharge NCP - Expected outcomes')",1347
+"('229698', 'CPOT-Facial Expression (CPOTb)')",1344
+"('224909', 'Impaired Skin Drainage Amount #2')",1339
+"('229696', 'CPOT-Body Movements (CPOTb)')",1339
+"('229134', 'Elimination NCP - Interventions')",1333
+"('229695', 'CPOT-Vocalization (CPOTb)')",1332
+"('229691', 'CPOT-Muscle Tension (CPOTb)')",1331
+"('225087', 'Visual / hearing deficit')",1319
+"('224106', 'Cooling Device')",1315
+"('228549', 'Pressure Ulcer #1- Type')",1314
+"('227687', 'Tobacco Use History')",1307
+"('225113', 'Currently experiencing pain')",1307
+"('225110', 'Recreational drug use')",1301
+"('225005', 'Incision Closure #3')",1300
+"('224010', 'GI #1 Tube Place Check')",1299
+"('225101', 'Use of assistive devices')",1280
+"('227570', 'Small Volume Neb Drug/Dose #1')",1274
+"('223955', 'Temporary Pacemaker Type')",1269
+"('228813', 'Pressure ulcer #1- Stage')",1264
+"('223921', 'Neuro Symptoms')",1253
+"('220227', 'Arterial O2 Saturation')",1246
+"('225120', 'Appetite')",1245
+"('224959', 'Impaired Skin Wound Base #3')",1243
+"('228962', 'Nutrition  NCP - Expected outcomes')",1239
+"('225126', 'Dialysis patient')",1238
+"('223956', 'Temporary Pacemaker Mode')",1234
+"('229662', 'Pminimum')",1226
+"('229663', 'Pinsp (Hamilton)')",1215
+"('228561', 'Incision #3- Location')",1213
+"('223961', 'Temporary Pacemaker Wire Condition')",1210
+"('229090', 'Altered Respiratory Status NCP - Plan revised')",1201
+"('224169', 'MDI #1 Puff')",1199
+"('229660', 'RCexp (Measured Time Constant)')",1197
+"('228600', 'Impaired Skin #1- Dressing Status')",1196
+"('229664', 'Resistance Exp')",1187
+"('229661', 'Compliance')",1187
+"('229665', 'Resistance Insp')",1184
+"('225067', 'Is the spokesperson the Health Care Proxy')",1175
+"('229095', 'Coping/Knowledge Deficit  NCP - Problem resolved')",1157
+"('228297', 'Daily Wake Up Deferred')",1148
+"('225135', 'Consults')",1136
+"('224751', 'Temporary Pacemaker Rate')",1133
+"('225122', 'Special diet')",1132
+"('224973', 'Surrounding Tissue #3')",1132
+"('225052', 'Cooling Device Status')",1130
+"('223758', 'Code Status')",1128
+"('229476', 'PICC Line Power PICC')",1121
+"('225078', 'Social work consult')",1116
+"('224931', 'Impaired Skin Site #3')",1111
+"('227631', 'Arctic Sun Temp #2 Location')",1111
+"('224888', 'Impaired Skin Cleanse #2')",1102
+"('223962', 'Temporary Pacemaker Wires Venticular')",1096
+"('224297', 'Cordis/Introducer Site Appear')",1090
+"('225124', 'Unintentional weight loss >10 lbs.')",1077
+"('225074', 'Any fear in relationships')",1074
+"('224043', 'Incision Cleansing #1')",1073
+"('224632', 'Tunneling Present #1')",1063
+"('227350', 'Cordis/Introducer Dressing Occlusive')",1059
+"('224839', 'Temporary Pacemaker Wires Atrial')",1047
+"('228098', '16 Gauge placed in the field')",1046
+"('228498', 'Impaired Skin #3- Location')",1043
+"('227634', 'Arctic Sun/Alsius Temp #2 C')",1041
+"('226180', 'Sexuality / reproductive problems')",1028
+"('229538', 'PICC - Heparin Dependent')",1028
+"('226512', 'Admission Weight (Kg)')",1020
+"('220072', 'Central Venous Pressure Alarm - High')",1018
+"('220073', 'Central Venous Pressure  Alarm - Low')",1013
+"('220274', 'PH (Venous)')",1002
+"('228853', 'Impaired Skin #1- Type')",996
+"('227752', 'Cordis/Introducer Placement Confirmed by X-ray')",991
+"('226109', 'Cordis/Introducer placed in outside facility')",977
+"('228573', 'Incision #3- Treatment')",973
+"('229093', 'Altered Skin Integrity NCP - Problem resolved')",959
+"('223773', 'PA Line cm Mark')",953
+"('229100', 'Impaired Tissue Perfusion NCP - Plan revised')",945
+"('220632', 'LDH')",945
+"('228530', 'Impaired Skin #2- Treatment')",944
+"('227630', 'Arctic Sun Temp #1 Location')",940
+"('224092', 'Range of Motion Location')",930
+"('228888', 'Pain NCP - Expected outcomes')",927
+"('224633', 'Undermining Present #1')",926
+"('228723', 'Pressure ulcer #1- Length')",918
+"('228539', 'Pressure Ulcer #1- Treatment')",912
+"('225076', 'Emotional / physical / sexual harm by partner or close relation')",911
+"('228620', 'Pressure Ulcer #1- Width')",910
+"('224173', 'MDI #2 Drug')",908
+"('227781', 'Impaired Skin  - Dressing Status #2')",908
+"('224903', 'Impaired Skin Drainage #3')",906
+"('225176', 'Range of Motion Status')",905
+"('224924', 'Impaired Skin Odor #3')",905
+"('227456', 'Albumin')",904
+"('224788', 'GI #2 Tube Type')",897
+"('224789', 'GI #2 Tube Status')",894
+"('224441', 'GI #2 Intub Site')",889
+"('227632', 'Arctic Sun/Alsius Temp #1 C')",889
+"('225070', 'Unable to assess psychological')",881
+"('225014', 'Incision Drainage #3')",880
+"('224065', 'Circulation/Skin Integrity')",880
+"('224406', 'VEN Lumen Volume')",874
+"('224404', 'ART Lumen Volume')",874
+"('224938', 'Impaired Skin Treatment #3')",869
+"('225313', 'Bed Bath')",861
+"('224438', 'Chest Tube Site # 2')",849
+"('228596', 'Incision #3- Dressing Status')",846
+"('228833', 'Pressure ulcer #1- Tunneling present')",844
+"('227473', 'Incision Site #2')",837
+"('227357', 'Dialysis Catheter Dressing Occlusive')",835
+"('225028', 'Dressing Status #2')",833
+"('227124', 'Dialysis Catheter Type')",829
+"('224945', 'Impaired Skin Type #3')",827
+"('224067', 'Range of Motion')",826
+"('227429', 'Troponin-T')",819
+"('225641', 'Differential-Lymphs')",818
+"('224631', 'Pressure Ulcer Stage #1')",818
+"('225643', 'Differential-Neuts')",817
+"('225642', 'Differential-Monos')",817
+"('225640', 'Differential-Eos')",817
+"('225639', 'Differential-Basos')",817
+"('229600', 'CAUTI Info Given')",816
+"('226540', 'Hematocrit (whole blood - calc)')",810
+"('225206', 'Multi Lumen Zero/Calibrate')",807
+"('227663', 'Immobilizer')",807
+"('226063', 'Venous O2 Pressure')",804
+"('226062', 'Venous CO2 Pressure')",804
+"('223679', 'TCO2 (calc) Venous')",804
+"('229102', 'Infection NCP - Plan revised')",802
+"('229536', 'Dialysis Catheter Type')",799
+"('225023', 'Incision Dressing #2')",798
+"('224740', 'RSBI Deferred')",784
+"('220245', 'CO2 production')",782
+"('228577', 'Impaired Skin #2- Type')",765
+"('229138', 'Substance withdrawal NCP - Interventions')",762
+"('229106', 'Pain NCP - Plan revised')",754
+"('227684', 'Safety Measures')",747
+"('224119', '22 Gauge Site Appear')",744
+"('227681', 'Less Restrictive Measures_V1')",743
+"('227667', 'Reason for Immobilizer')",742
+"('229108', 'Post-op Care NCP - Plan revised')",740
+"('228009', '16 G Phlebitis Scale')",740
+"('227664', 'Immobilizer Device')",740
+"('228843', 'Pressure ulcer #1- Undermining present')",736
+"('228010', '16 G Infiltration Scale')",731
+"('227445', 'CK-MB')",730
+"('227130', 'Trach Care')",730
+"('224101', 'Chest PT R/L')",728
+"('227666', 'Immobilizer Location')",726
+"('228336', 'CAM-ICU Inattention')",721
+"('224808', 'CT #2 Suction Type')",714
+"('225117', 'Unable to assess nutrition / education')",712
+"('224715', 'SBT Started')",708
+"('227588', 'GI #1 Tube Place Method')",708
+"('226480', 'Ectopy Frequency 2')",707
+"('224427', 'CT #2 Suction Amount')",704
+"('227665', 'Immobilizer Evaluated')",703
+"('229088', 'Altered Mental Status  NCP - Plan revised')",702
+"('229097', 'Discharge NCP - Problem resolved')",697
+"('229152', 'Palliative Care NCP - Interventions')",692
+"('228803', 'Pressure ulcer #1- Dressing status')",691
+"('225634', 'CK (CPK)')",679
+"('224995', 'Incision Appearance #4')",677
+"('225129', 'Unable to assess teaching / learning needs')",676
+"('225674', 'Mixed Venous O2% Sat')",676
+"('224916', 'Impaired Skin Length #2')",675
+"('224951', 'Impaired Skin Width #2')",673
+"('223810', 'Paroxysmal Sweats')",673
+"('223817', 'Agitation')",673
+"('223805', 'Nausea and Vomiting (CIWA)')",672
+"('223806', 'Tremor (CIWA)')",672
+"('229133', 'Elimination NCP - Expected outcomes')",669
+"('224932', 'Impaired Skin Site #4')",668
+"('227287', 'O2 Flow (additional cannula)')",666
+"('223811', 'Anxiety')",666
+"('223818', 'Tactile Disturbances')",659
+"('223814', 'Auditory Disturbance')",658
+"('223819', 'Visual Disturbances')",658
+"('223820', 'Headache')",658
+"('227662', 'Patient/Family Informed_V2')",658
+"('223821', 'Orient/Clouding Sensory')",657
+"('225006', 'Incision Closure #4')",657
+"('225091', 'Unable to assess activity / mobility')",645
+"('224939', 'Impaired Skin Treatment #4')",645
+"('225019', 'Incision Drainage Amount #3')",644
+"('223823', 'Insomnia')",642
+"('223824', 'Seizure')",642
+"('225086', 'Unable to assess cognitive / perceptual')",637
+"('227627', 'Arctic Sun/Alsius Set Temp')",637
+"('226534', 'Sodium (whole blood)')",632
+"('228971', 'Nutrition NCP - Body needs')",632
+"('229129', 'Altered Sensory Perception NCP - Problem resolved')",627
+"('229105', 'Nutrition  NCP - Problem resolved')",622
+"('229347', 'Impaired Mobility  NCP - Interventions')",620
+"('224172', 'MDI #2 Puff')",618
+"('229110', 'Safety Restraints NCP - Plan revised')",617
+"('226130', 'ICP Line Site Appear')",613
+"('223836', 'Airway Type')",610
+"('220734', 'PH (dipstick)')",604
+"('225133', 'Discharge needs')",601
+"('225237', '16 Gauge Site Appear')",599
+"('227468', 'Fibrinogen')",590
+"('227471', 'Specific Gravity (urine)')",590
+"('227628', 'Arctic Sun Water Temp')",590
+"('226129', 'ICP Line placed in outside facility')",587
+"('227363', 'ICP Line Dressing Occlusive')",587
+"('226133', 'ICP Line Waveform Appear')",586
+"('224910', 'Impaired Skin Drainage Amount #3')",586
+"('224889', 'Impaired Skin Cleanse #3')",578
+"('225090', 'Interpreter')",576
+"('224422', 'Spont RR')",574
+"('224421', 'Spont Vt')",573
+"('224946', 'Impaired Skin Type #4')",571
+"('224974', 'Surrounding Tissue #4')",570
+"('224796', 'Ostomy')",568
+"('228309', 'GI #2 Tube Place Check')",565
+"('229098', 'Impaired Fluid Balance NCP - Plan revised')",565
+"('228318', 'Shivering Assessment')",562
+"('224425', 'CT #2 Dressing')",558
+"('224424', 'CT #2 Drainage')",558
+"('224777', 'CT #2 Leak')",548
+"('224426', 'CT #2 Fluctuate')",545
+"('229699', 'CPOT-Facial Expression (CPOTa)')",541
+"('229697', 'CPOT-Body Movements (CPOTa)')",541
+"('229692', 'CPOT-Muscle Tension (CPOTa)')",539
+"('229686', 'Warming Device')",537
+"('229694', 'CPOT-Vocalization (CPOTa)')",536
+"('225105', 'Unable to assess habits')",535
+"('224960', 'Impaired Skin Wound Base #4')",532
+"('220063', 'Pulmonary Artery Pressure Alarm - High')",525
+"('220066', 'Pulmonary Artery Pressure Alarm - Low')",522
+"('228562', 'Incision #4- Location')",522
+"('225175', 'See chart for initial patient assessment')",516
+"('223972', 'Angio Appearance # 2')",516
+"('224979', 'Tunneling Present #2')",512
+"('229319', 'Activity / Mobility (JH-HLM)')",512
+"('227241', 'PAP Alarm Source')",509
+"('227351', 'PA Catheter Dressing Occlusive')",508
+"('223825', 'Sustained Nystagmus')",506
+"('225112', 'Unable to assess pain')",505
+"('225355', 'PA Catheter Site Appear')",503
+"('223828', 'Slurred Speech')",502
+"('226730', 'Height (cm)')",501
+"('226707', 'Height')",501
+"('225357', 'PA Catheter Waveform Appear')",501
+"('228854', 'Impaired Skin #2- Type')",499
+"('225813', 'Baseline pain level')",496
+"('223829', 'Drowsiness')",495
+"('229344', 'Impaired Mobility NCP - Expected outcomes')",494
+"('224834', 'Temporary Ventricular Sens')",493
+"('224390', 'Temporary Atrial Sens')",492
+"('228753', 'Pressure ulcer #1- Drainage')",492
+"('228574', 'Incision #4- Treatment')",491
+"('223827', 'Ataxia')",487
+"('223971', 'Angio Site # 2')",479
+"('227988', 'Pronator drift present')",478
+"('228531', 'Impaired Skin #3- Treatment')",477
+"('223973', 'Angio Dressing # 2')",476
+"('224904', 'Impaired Skin Drainage #4')",473
+"('224835', 'Temporary Ventricular Capture')",468
+"('227757', 'PA Catheter Placement Confirmed by X-ray')",463
+"('224866', 'Temporary Atrial Capture')",462
+"('224423', 'CT #2 Crepitus')",460
+"('226114', 'PA Catheter placed in outside facility')",458
+"('224563', 'Impaired Skin Depth #1')",455
+"('224998', 'Incision Cleansing #2')",451
+"('229386', 'Cerebellar - Finger -> Nose')",445
+"('229681', 'Indwelling Urinary Catheter Care')",441
+"('228734', 'Pressure ulcer #2- Wound Base')",430
+"('229094', 'Coping/Knowledge Deficit  NCP - Plan revised')",429
+"('224925', 'Impaired Skin Odor #4')",428
+"('225958', 'Heparin Concentration (units/mL)')",428
+"('224890', 'Impaired Skin Cleanse #4')",427
+"('225007', 'Incision Closure #5')",424
+"('228601', 'Impaired Skin #2- Dressing Status')",420
+"('224986', 'Undermining Present #2')",418
+"('224996', 'Incision Appearance #5')",418
+"('224717', 'SBT Successfully Completed')",417
+"('225684', 'Serum Osmolality')",416
+"('224327', 'PCA medication')",414
+"('228499', 'Impaired Skin #4- Location')",405
+"('224013', 'Stool Guaiac')",403
+"('224328', 'PCA dose')",403
+"('224329', 'PCA lockout (min)')",402
+"('224330', 'PCA 1 hour limit')",401
+"('227111', 'PCA  dose units')",396
+"('225379', 'Indwelling Port (PortaCath) Site Appear')",394
+"('229136', 'Substance withdrawal NCP - Expected outcomes')",392
+"('227125', 'Indwelling (PortaCath) Port Type')",391
+"('227113', 'PCA 1 hour limit units')",391
+"('227360', 'Indwelling Port (PortaCath) Dressing Occlusive')",384
+"('220088', 'Cardiac Output (thermodilution)')",380
+"('225280', 'Called Out')",379
+"('228578', 'Impaired Skin #3- Type')",378
+"('224911', 'Impaired Skin Drainage Amount #4')",377
+"('228419', 'Compression device # 1')",376
+"('224755', 'Temporary Atrial Stim Setting mA')",375
+"('225048', 'Knee Location - Immobilizer')",375
+"('225015', 'Incision Drainage #4')",374
+"('224753', 'Temporary Atrial Sens Setting mV')",373
+"('226536', 'Chloride (whole blood)')",371
+"('229145', 'Metabolic disturbance NCP - Interventions')",370
+"('227809', 'ETT Position Change')",366
+"('224917', 'Impaired Skin Length #3')",360
+"('224952', 'Impaired Skin Width #3')",358
+"('223960', 'Temporary Venticular Stim Threshold mA')",356
+"('224797', 'Ostomy Appearance')",356
+"('224838', 'Temporary Ventricular Stim Setting mA')",352
+"('224965', 'Pressure Ulcer Stage #2')",352
+"('223958', 'Temporary Venticular Sens Threshold mV')",349
+"('229371', 'Bladder Scan Estimate')",348
+"('228153', 'Dual Signal Screen')",346
+"('228518', 'Impaired Skin #1- Cleanse')",344
+"('224837', 'Temporary Ventricular Sens Setting mV')",343
+"('229243', 'Neuro Mon Line Type')",343
+"('229361', 'Absolute Count - Basos')",340
+"('229360', 'Absolute Count - Eos')",340
+"('229359', 'Absolute Count - Monos')",340
+"('229358', 'Absolute Count - Lymphs')",340
+"('229357', 'Absolute Count - Neuts')",340
+"('224975', 'Surrounding Tissue #5')",340
+"('229122', 'Elimination NCP - Problem resolved')",339
+"('223847', 'Passey Muir Valve in use')",338
+"('224332', 'PCA inject')",336
+"('224663', 'PCA attempt')",335
+"('227626', 'Seizure Pads')",335
+"('223759', 'Precautions: Standard +')",332
+"('224439', 'Chest Tube Site #3')",330
+"('229305', 'Power (Watts) (HeartWare)')",330
+"('229304', 'Flow (L/min) (HeartWare)')",330
+"('229303', 'Speed (RPM) (HeartWare)')",330
+"('224752', 'Temporary Atrial Sens Threshold mV')",328
+"('224754', 'Temporary Atrial Stim Threshold mA')",327
+"('229306', 'HCT (HeartWare)')",326
+"('229308', 'High Power Alarm (HeartWare)')",325
+"('229307', 'Low Flow Alarm (HeartWare)')",325
+"('228597', 'Incision #4- Dressing Status')",322
+"('224940', 'Impaired Skin Treatment #5')",312
+"('229092', 'Altered Skin Integrity NCP - Plan revised')",311
+"('228507', 'Pressure Ulcer #2- Location')",308
+"('225225', 'CCO PAC Site Appear')",306
+"('224933', 'Impaired Skin Site #5')",306
+"('227352', 'CCO PAC Dressing Occlusive')",303
+"('228763', 'Pressure ulcer #1- Drainage amount')",301
+"('225227', 'CCO PAC Waveform Appear')",299
+"('223938', 'Ulnar Pulse R')",298
+"('224413', 'TOF Response')",298
+"('228550', 'Pressure Ulcer #2- Type')",298
+"('228744', 'Pressure ulcer #2- Surrounding tissue')",297
+"('225347', 'Midline Site Appear')",294
+"('226108', 'CCO PAC placed in outside facility')",293
+"('225029', 'Dressing Status #3')",291
+"('227439', 'Indwelling Port (PortaCath) placed in outside facility')",291
+"('224833', 'SBT Deferred')",289
+"('229656', 'Stroke NCP - Water Swallow Deferred')",286
+"('224947', 'Impaired Skin Type #5')",286
+"('225230', '20 Gauge Reason Discontinued')",285
+"('224379', 'PCA cleared')",284
+"('228814', 'Pressure ulcer #2- Stage')",283
+"('225949', 'NIV Mask')",282
+"('229650', 'Stroke NCP - Water Swallow')",280
+"('226112', 'Midline placed in outside facility')",280
+"('229646', 'Stroke NCP - Plan revised')",278
+"('227751', 'CCO PAC Placement Confirmed by X-ray')",277
+"('223802', 'Nerve Stimulated')",276
+"('225020', 'Incision Drainage Amount #4')",276
+"('224665', 'PCA total dose')",275
+"('223760', 'Health Care Proxy')",274
+"('224044', 'Incision Packing #1')",274
+"('224331', 'PCA basal rate (mL/hour)')",272
+"('229648', 'Stroke NCP - Problem resolved')",271
+"('223768', 'Intra Cranial Pressure Alarm - Low')",270
+"('227474', 'Incision Site #3')",269
+"('223767', 'Intra Cranial Pressure Alarm - High')",268
+"('227980', 'Intra Aortic Balloon Pump Setting')",268
+"('228563', 'Incision #5- Location')",267
+"('224905', 'Impaired Skin Drainage #5')",266
+"('229649', 'Stroke NCP - Type')",263
+"('224310', 'Augmented Diastole')",263
+"('228714', 'Bladder scanned')",262
+"('225003', 'Incision Closure #6')",262
+"('224322', 'IABP Mean')",261
+"('228855', 'Impaired Skin #3- Type')",261
+"('224309', 'Assisted Systole')",260
+"('224311', 'BAEDP')",260
+"('224366', 'Epidural Infusion Rate (mL/hr)')",259
+"('224368', 'Epidural Medication')",258
+"('227119', 'Epidural Location')",256
+"('225638', 'Differential-Bands')",254
+"('224652', 'Unassisted Systole')",254
+"('224654', 'PAEDP')",253
+"('224810', 'CT #3 Suction Type')",252
+"('225024', 'Incision Dressing #3')",251
+"('229128', 'Altered Sensory Perception NCP - Plan revised')",250
+"('224436', 'CT #3 Suction Amount')",249
+"('229327', 'Activity Intolerance  NCP - Expected outcomes')",249
+"('224980', 'Tunneling Present #3')",248
+"('227783', 'Impaired Skin - Dressing Status  #4')",247
+"('227455', 'Vancomycin (Trough)')",246
+"('224961', 'Impaired Skin Wound Base #5')",246
+"('226185', 'ICU Consent Signed')",245
+"('227117', 'PCA total dose units')",245
+"('224987', 'Undermining Present #3')",245
+"('225085', 'Post menopausal')",244
+"('229096', 'Discharge NCP - Plan revised')",243
+"('224912', 'Impaired Skin Drainage Amount #5')",243
+"('225358', 'PA Catheter Zero/Calibrate')",241
+"('228773', 'Pressure ulcer #1- Odor')",241
+"('228575', 'Incision #5- Treatment')",241
+"('225672', 'Lipase')",240
+"('223800', 'Epidural Appearance')",239
+"('223942', 'Graft/Flap Pulse')",238
+"('224962', 'Impaired Skin Wound Base #6')",236
+"('225637', 'Differential-Atyps')",235
+"('223963', 'Temporary Pacemaker Wires Ground')",233
+"('224918', 'Impaired Skin Length #4')",232
+"('224114', 'PT Splint Location #1')",230
+"('224967', 'Pressure Ulcer Stage #4')",230
+"('224066', 'Position Change')",230
+"('224891', 'Impaired Skin Cleanse #5')",230
+"('226134', 'ICP Line Zero/Calibrate')",229
+"('224953', 'Impaired Skin Width #4')",229
+"('223949', 'Ulnar Pulse L')",227
+"('225082', 'Pregnant')",226
+"('228724', 'Pressure ulcer #2- Length')",226
+"('228532', 'Impaired Skin #4- Treatment')",224
+"('228137', 'CHG Bath')",222
+"('229301', 'GI #2 Tube Mark (CM)')",222
+"('224430', 'CT #3 Drainage')",221
+"('228621', 'Pressure Ulcer #2- Width')",221
+"('224432', 'CT #3 Dressing')",219
+"('228310', 'GI #2 Tube Place Method')",219
+"('228564', 'Incision #6- Location')",219
+"('227805', 'SvO2 SQI')",218
+"('224434', 'CT #3 Fluctuate')",217
+"('224779', 'CT #3 Leak')",217
+"('228234', 'PAR-Respiration')",214
+"('228231', 'PAR-Consciousness')",214
+"('228230', 'PAR-Circulation')",214
+"('228229', 'PAR-Activity')",214
+"('224895', 'Impaired Skin Depth #2')",214
+"('224999', 'Incision Cleansing #3')",213
+"('224926', 'Impaired Skin Odor #5')",213
+"('225192', 'Collar Care')",212
+"('229356', 'Differential - Immature Granulocytes')",211
+"('227801', 'Stool Guaiac QC')",211
+"('228156', 'Performance Level')",211
+"('224906', 'Impaired Skin Drainage #6')",211
+"('224662', 'Current Used/mA')",210
+"('228157', 'Placement Monitoring Screen')",209
+"('228154', 'Flow Rate (Impella)')",209
+"('228151', 'Aortic Pressure Signal - Diastolic')",208
+"('228152', 'Aortic Pressure Signal - Systolic')",208
+"('228158', 'Purge Pressure')",208
+"('228159', 'Purge Solution Flow Rate')",208
+"('229311', 'Motor Current (mA) High')",207
+"('229312', 'Motor Current (mA) Low')",207
+"('220581', 'Amylase')",206
+"('228232', 'PAR-Oxygen saturation')",206
+"('224976', 'Surrounding Tissue #6')",206
+"('227127', 'Indwelling (PortaCath) Port #1')",206
+"('228565', 'Incision #1- Cleanse')",205
+"('227591', 'Neuro Drain Landmark')",205
+"('224981', 'Tunneling Present #4')",204
+"('229685', 'Vaulables Checklist')",202
+"('228610', 'Pressure Ulcer #1- Depth')",202
+"('225180', 'PT Splint Status #1')",201
+"('228368', 'Cardiac Index (CI NICOM)')",200
+"('227676', 'Reason for Restraints (Non-Violent)')",200
+"('224934', 'Impaired Skin Site #6')",200
+"('223801', 'NMB Medication')",198
+"('229679', 'Type of Catheter (Impella)')",198
+"('224988', 'Undermining Present #4')",198
+"('224941', 'Impaired Skin Treatment #6')",198
+"('224844', 'Permanent Pacemaker Mode')",197
+"('228540', 'Pressure Ulcer #2- Treatment')",197
+"('227454', 'Vancomycin (Random)')",196
+"('227671', 'Non-Violent Restraints')",195
+"('224948', 'Impaired Skin Type #6')",194
+"('223771', 'PCWP')",192
+"('228375', 'Stroke Volume Index (SVI NICOM)')",191
+"('227120', 'Motor Deficit')",190
+"('227782', 'Impaired Skin  - Dressing Status #3')",189
+"('225233', '18 Gauge Reason Discontinued')",188
+"('227539', 'ART Blood Pressure Alarm Source')",188
+"('225737', 'Arterial Line Discontinued')",186
+"('227537', 'ART Blood Pressure Alarm - High')",186
+"('227538', 'ART Blood Pressure Alarm - Low')",185
+"('228369', 'Cardiac Output (CO NICOM)')",185
+"('228303', 'CAM-ICU Disorganized thinking')",185
+"('224968', 'Pressure Ulcer Stage #5')",184
+"('224800', 'AV Fistula R Bruit')",184
+"('227461', 'Phenytoin (Dilantin)')",182
+"('224801', 'AV Fistula R Thrill')",182
+"('224997', 'Incision Appearance #6')",182
+"('229235', 'Brain Tissue Oxygenation')",182
+"('224913', 'Impaired Skin Drainage Amount #6')",181
+"('224963', 'Impaired Skin Wound Base #7')",181
+"('228413', 'Seizure Activity')",180
+"('228500', 'Impaired Skin #5- Location')",180
+"('224445', 'GI #2 Tube Drainage')",178
+"('225016', 'Incision Drainage #5')",178
+"('229387', 'Cerebellar - Heel -> Shin')",177
+"('227678', 'Restraint Device (Non-Violent)')",177
+"('229236', 'Cerebral Temperature (C)')",177
+"('225693', 'Triglyceride')",176
+"('229104', 'Nutrition  NCP - Plan revised')",175
+"('227810', 'ETT Re-taped')",175
+"('228374', 'Stroke Volume (SV NICOM)')",173
+"('225988', 'IABP Position on leg')",173
+"('228783', 'Pressure ulcer #1- Cleanse')",173
+"('227418', 'Midline Dressing Occlusive')",172
+"('228576', 'Incision #6- Treatment')",172
+"('229324', 'CAM-ICU Disorganized thinking')",169
+"('225628', 'CK-MB fraction (%)')",168
+"('228376', 'Stroke Volume Variation (SVV NICOM)')",166
+"('224966', 'Pressure Ulcer Stage #3')",166
+"('229150', 'Palliative Care NCP - Expected outcomes')",165
+"('226889', 'Legal Guardian')",164
+"('225767', 'Sheath Site Appear')",162
+"('228602', 'Impaired Skin #3- Dressing Status')",161
+"('224746', 'Transpulmonary Pressure (Exp. Hold)')",161
+"('229317', 'StO2')",161
+"('224747', 'Transpulmonary Pressure (Insp. Hold)')",160
+"('224845', 'Permanent Pacemaker Rate')",159
+"('224892', 'Impaired Skin Cleanse #6')",158
+"('224428', 'CT #3 Crepitus')",157
+"('223940', 'Femoral Pulse R')",153
+"('228519', 'Impaired Skin #2- Cleanse')",153
+"('229316', 'TOF Twitch')",153
+"('225651', 'Direct Bilirubin')",152
+"('229143', 'Metabolic disturbance NCP - Expected outcomes')",152
+"('228866', 'Plateau Pressure (IABP)')",152
+"('224927', 'Impaired Skin Odor #6')",152
+"('228856', 'Impaired Skin #4- Type')",149
+"('226117', 'Sheath placed in outside facility')",148
+"('227578', 'BiPap Mask')",146
+"('227680', 'Restraint Location_V2')",146
+"('227462', 'FK506')",145
+"('224418', 'Cuff Volume (mL)')",144
+"('228579', 'Impaired Skin #4- Type')",144
+"('224090', 'Knee Immobilizer Status')",143
+"('227755', 'Midline Placement Confirmed by X-ray')",139
+"('224791', 'GI #3 Tube Type')",138
+"('224442', 'GI #3 Intub Site')",138
+"('227585', 'GI Guaiac')",138
+"('227577', 'BiPap Mode')",137
+"('227579', 'BiPap EPAP')",137
+"('224792', 'GI #3 Tube Status')",137
+"('229350', 'Impaired Mobility NCP - Plan revised')",137
+"('227669', 'Side Rails (Restraint)')",137
+"('228745', 'Pressure ulcer #3- Surrounding tissue')",137
+"('224896', 'Impaired Skin Depth #3')",136
+"('224803', 'AV Fistula L Bruit')",136
+"('223944', 'Brachial Pulse L')",135
+"('226135', '14 Gauge placed in outside facility')",135
+"('227365', '14 Gauge Dressing Occlusive')",135
+"('225722', 'Arterial Line Tip Cultured')",135
+"('224804', 'AV Fistula L Thrill')",135
+"('225030', 'Dressing Status #4')",131
+"('228804', 'Pressure ulcer #2- Dressing status')",130
+"('227580', 'BiPap IPAP')",128
+"('224006', 'Emesis Appearance')",127
+"('223939', 'Brachial Pulse R')",126
+"('229141', 'Substance withdrawal NCP - Problem resolved')",125
+"('226846', 'Feeding Weight')",125
+"('227682', 'Restraints Evaluated_V2')",125
+"('227981', 'Neuro Drain #2 Type')",124
+"('224062', 'Less Restrictive Measures (Acute Med/Surgical)')",124
+"('228566', 'Incision #2- Cleanse')",123
+"('225770', 'Sheath Waveform Appear')",123
+"('227128', 'Indwelling (PortaCath) Port #2')",123
+"('227582', 'BiPap O2 Flow')",121
+"('224414', 'TOF Twitch')",121
+"('227475', 'Incision Site #4')",121
+"('229349', 'Impaired Mobility NCP - Problem resolved')",120
+"('228420', 'Compression device # 2')",120
+"('225025', 'Incision Dressing #4')",120
+"('228233', 'PAR-Remain sedated')",119
+"('227516', 'PO2 (Mixed Venous)')",118
+"('227356', 'Sheath Line Dressing Occlusive')",118
+"('228508', 'Pressure Ulcer #3- Location')",118
+"('224942', 'Impaired Skin Treatment #7')",117
+"('228551', 'Pressure Ulcer #3- Type')",116
+"('224919', 'Impaired Skin Length #5')",116
+"('224954', 'Impaired Skin Width #5')",116
+"('225228', 'CCO PAC Zero/Calibrate')",113
+"('227187', 'Pinsp (Draeger only)')",113
+"('224935', 'Impaired Skin Site #7')",113
+"('227717', 'Cerebral Perfusion Pressure Alarm - Low')",112
+"('225000', 'Incision Cleansing #4')",112
+"('223945', 'Femoral Pulse L')",111
+"('228725', 'Pressure ulcer #3- Length')",111
+"('228622', 'Pressure Ulcer #3- Width')",111
+"('224956', 'Impaired Skin Width #7')",111
+"('229882', 'CVL Biopatch')",111
+"('227716', 'Cerebral Perfusion Pressure Alarm - High')",110
+"('229881', 'Dialysis/Pheresis Biopatch')",110
+"('228815', 'Pressure ulcer #3- Stage')",109
+"('227673', 'Non-Violent Restraints Ordered')",108
+"('224907', 'Impaired Skin Drainage #7')",108
+"('228834', 'Pressure ulcer #2- Tunneling present')",107
+"('226499', 'Hemodialysis Output')",106
+"('224025', 'Spiritual Support')",106
+"('229155', 'Palliative Care NCP - Problem resolved')",106
+"('228599', 'Incision #6- Dressing Status')",106
+"('227965', 'Restraint Device (Violent)')",105
+"('229003', 'Self harm NCP - Interventions')",105
+"('228603', 'Impaired Skin #4- Dressing Status')",104
+"('225772', 'Sheath Size')",103
+"('225729', 'Multi Lumen Line Tip Cultured')",103
+"('228344', 'OCAT - Saliva secretions, Voice quality')",102
+"('228754', 'Pressure ulcer #2- Drainage')",102
+"('227567', 'Airway Location')",102
+"('229268', 'Circuit Configuration (ECMO)')",102
+"('229271', 'Flow Alarm (Hi) (ECMO)')",102
+"('229272', 'Flow Alarm (Lo) (ECMO)')",102
+"('228346', 'OCAT - Teeth')",101
+"('228345', 'OCAT - Swallow')",101
+"('228343', 'OCAT - Lips Tongue Gums Palate')",101
+"('228709', 'Respiratory')",101
+"('224982', 'Tunneling Present #5')",101
+"('224949', 'Impaired Skin Type #7')",101
+"('227989', 'Intra Cranial Pressure #2')",101
+"('229641', 'Stroke NCP - Consults')",100
+"('227674', 'Face to Face Eval (Non-Violent)')",100
+"('224989', 'Undermining Present #5')",100
+"('223797', 'Sensory Level')",99
+"('226473', 'Blood Transfusion Consent')",98
+"('229659', '% Minute Volume')",97
+"('228311', 'GI #3 Tube Place Check')",97
+"('228097', '14 Gauge placed in the field')",96
+"('225744', 'Multi Lumen Line Discontinued')",96
+"('229123', 'Elimination NCP - Plan revised')",96
+"('224893', 'Impaired Skin Cleanse #7')",96
+"('223941', 'Popliteal Pulse R')",95
+"('227460', 'Phenobarbital')",95
+"('227761', 'Sheath Placement Confirmed by X-ray')",95
+"('225017', 'Incision Drainage #6')",95
+"('229032', 'HEENT')",94
+"('228735', 'Pressure ulcer #3- Wound Base')",94
+"('228312', 'GI #3 Tube Place Method')",94
+"('228501', 'Impaired Skin #6- Location')",93
+"('224702', 'PCV Level')",93
+"('224920', 'Impaired Skin Length #6')",92
+"('229278', 'Sweep (ECMO)')",92
+"('229270', 'Flow (ECMO)')",92
+"('229277', 'Speed (ECMO)')",92
+"('229280', 'FiO2 (ECMO)')",92
+"('229276', 'Suction events (ECMO)')",92
+"('227463', 'Cortisol')",91
+"('229363', 'P1 (ECMO)')",91
+"('229364', 'P2 (ECMO)')",91
+"('229365', 'P1 - P2 (ECMO)')",91
+"('224661', 'Baseline Current/mA')",90
+"('227784', 'Impaired Skin  - Dressing Status #5')",90
+"('228598', 'Incision #5- Dressing Status')",89
+"('227568', 'Airway Size (mm)')",87
+"('228533', 'Impaired Skin #5- Treatment')",87
+"('227982', 'Neuro Drain #2 Status')",87
+"('224914', 'Impaired Skin Drainage Amount #7')",86
+"('227983', 'Neuro Drain #2 Drainage')",86
+"('228520', 'Impaired Skin #3- Cleanse')",85
+"('228857', 'Impaired Skin #5- Type')",85
+"('224955', 'Impaired Skin Width #6')",85
+"('229266', 'Cannula sites visually inspected (ECMO)')",85
+"('229269', 'Circuit inspected for clot (ECMO)')",85
+"('229273', 'Flow Sensor repositioned (ECMO)')",85
+"('229274', 'Oxygenator visible (ECMO)')",85
+"('229275', 'Pump plugged into RED outlet (ECMO)')",85
+"('229267', 'Emergency Equipment at bedside (ECMO)')",85
+"('220603', 'Cholesterol')",84
+"('227962', 'Restraints (Violent)')",84
+"('224969', 'Pressure Ulcer Stage #6')",84
+"('225021', 'Incision Drainage Amount #5')",84
+"('228541', 'Pressure Ulcer #3- Treatment')",82
+"('228844', 'Pressure ulcer #2- Undermining present')",82
+"('224113', 'Traction/Immobile Location #1')",82
+"('227964', 'Reason for Restraint (Violent)')",81
+"('228300', 'CAM-ICU MS change')",79
+"('227785', 'Impaired Skin  - Dressing Status #6')",79
+"('220624', 'HDL')",78
+"('224716', 'SBT Stopped')",78
+"('225671', 'LDL calculated')",77
+"('224440', 'Chest Tube Site #4')",77
+"('227620', 'Surrounding Tissue #9')",77
+"('224943', 'Impaired Skin Treatment #8')",77
+"('229704', 'CP-Pain Management')",76
+"('227583', 'Autoset/CPAP')",75
+"('223966', 'Transcutaneous Pacer Placement')",74
+"('223763', 'Bladder Pressure')",74
+"('224375', 'Cont Neb - Med')",74
+"('225240', '14 Gauge Site Appear')",74
+"('223946', 'Popliteal Pulse L')",73
+"('228373', 'Passive Leg Raise Performed')",73
+"('228699', 'Cardiovascular')",73
+"('227133', 'Small Volume Neb Drug #2')",73
+"('229636', 'Test Performed (AM-PAC)')",73
+"('227986', 'Neuro Drain #2 Landmark')",73
+"('229148', 'Metabolic disturbance NCP - Problem resolved')",72
+"('228764', 'Pressure ulcer #2- Drainage amount')",72
+"('224064', 'Restraint Location_V1')",72
+"('224121', '22 Gauge Reason Discontinued')",71
+"('228926', 'Impaired Tissue Perfusion NCP - Goal')",71
+"('228702', 'Lines/Tubes')",69
+"('225732', 'PICC Line Tip Cultured')",69
+"('229638', 'Discharge Recommendations (AM-PAC)')",69
+"('228173', 'Impella Position')",69
+"('223952', 'Pericardial Drain Status')",69
+"('228335', 'CAM-ICU Disorganized thinking')",68
+"('224680', 'Cuff Volume/units')",68
+"('229633', 'Basic Mobility (AM-PAC)')",68
+"('228296', 'PCA concentrations')",68
+"('224854', 'Reason for Restraint (Acute Medical/Surgical)_V1')",68
+"('228442', 'BIS - EMG')",68
+"('228443', 'BIS - SQI')",68
+"('223954', 'Pericardial Drain Site')",68
+"('225339', 'IABP Site Appear')",67
+"('224069', 'Side Rails_V1')",67
+"('227984', 'Neuro Drain #2 Level')",67
+"('228444', 'BIS Index Range')",67
+"('228611', 'Pressure Ulcer #2- Depth')",67
+"('227629', 'Shivering')",67
+"('226110', 'IABP placed in outside facility')",66
+"('225979', 'IABP Size')",65
+"('225981', 'IABP Alarms Activated')",65
+"('225984', 'IABP Trigger')",65
+"('225986', 'IABP Arterial Waveform Source')",65
+"('224898', 'Impaired Skin Depth #5')",65
+"('225982', 'IABP Balloon Waveform')",64
+"('225985', 'IABP Helium Tubing')",64
+"('224857', 'Less Restrictive Measures (Behavioral)')",64
+"('224068', 'Restraints Evaluated_V1')",64
+"('224063', 'Restraint Type')",64
+"('229868', 'Risk Factors for Pressure Injury')",64
+"('228534', 'Impaired Skin #6- Treatment')",63
+"('224908', 'Impaired Skin Drainage #8')",63
+"('223953', 'Pericardial Drain Drainage')",63
+"('224990', 'Undermining Present #6')",63
+"('224983', 'Tunneling Present #6')",63
+"('224894', 'Impaired Skin Cleanse #8')",63
+"('224950', 'Impaired Skin Type #8')",63
+"('227787', 'Impaired Skin  - Dressing Status  #8')",63
+"('229560', 'Cardiac Assist Cannula Position')",63
+"('227686', 'Central Venous O2% Sat')",62
+"('228567', 'Incision #3- Cleanse')",62
+"('225980', 'IABP Volume')",62
+"('227967', 'Restraint/Seclusion Observer Sheet')",62
+"('224936', 'Impaired Skin Site #8')",62
+"('225341', 'IABP Art. Waveform Appear')",61
+"('227604', 'Impaired Skin Odor #9')",61
+"('227616', 'Impaired Skin Wound Base #9')",61
+"('225987', 'IABP Power Source')",60
+"('229705', 'CP-Pain Assessment Method')",60
+"('225342', 'IABP Zero/Calibrate')",59
+"('224855', 'Patient/Family Informed_V1')",59
+"('227802', 'GI Guaiac QC')",59
+"('227963', 'Restraints Ordered (Violent)')",59
+"('224964', 'Impaired Skin Wound Base #8')",58
+"('224419', 'Negative Insp. Force')",58
+"('228007', '14 G Phlebitis Scale')",57
+"('228008', '14 G Infiltration Scale')",57
+"('228700', 'DVT Prophy')",57
+"('224921', 'Impaired Skin Length #7')",57
+"('227771', 'Traction/Immobile #1')",57
+"('229027', 'Constitutional')",56
+"('220507', 'Activated Clotting Time')",56
+"('225217', 'Trauma Line Site Appear')",56
+"('227353', 'Trauma Line Dressing Occlusive')",56
+"('227598', 'Impaired Skin Drainage #9')",56
+"('227546', 'SVV (Arterial)')",56
+"('228774', 'Pressure ulcer #2- Odor')",55
+"('227600', 'Impaired Skin Drainage Amount #9')",55
+"('224922', 'Impaired Skin Length #8')",55
+"('224957', 'Impaired Skin Width #8')",55
+"('225236', '16 Gauge Reason Discontinued')",54
+"('229154', 'Palliative Care NCP - Plan revised')",54
+"('224978', 'Surrounding Tissue #8')",54
+"('229742', 'Activity / Mobility (RN Daily Mobility Goal)')",54
+"('228975', 'Altered Mental Status  NCP - Goal')",54
+"('228687', 'Code Status.')",53
+"('227446', 'Brain Natiuretic Peptide (BNP)')",53
+"('228580', 'Impaired Skin #5- Type')",53
+"('224915', 'Impaired Skin Drainage Amount #8')",53
+"('229302', 'GI #3 Tube Mark (CM)')",53
+"('228858', 'Impaired Skin #6- Type')",53
+"('225022', 'Incision Drainage Amount #6')",53
+"('226119', 'Trauma Line placed in outside facility')",52
+"('227762', 'Trauma Line Placement Confirmed by X-ray')",52
+"('228784', 'Pressure ulcer #2- Cleanse')",52
+"('228805', 'Pressure ulcer #3- Dressing status')",52
+"('227754', 'IABP Placement Confirmed by X-ray')",52
+"('228692', 'Glucose Control - Prophy')",51
+"('225331', 'Tunneled (Hickman) Site Appear')",50
+"('227359', 'Tunneled (Hickman) Dressing Occlusive')",50
+"('224443', 'GI #2 Tube Place Check')",50
+"('224437', 'CT #4 Suction Amount')",50
+"('224812', 'CT #4 Suction Type')",50
+"('228712', 'VAP - Prophy')",50
+"('227966', 'Face to Face Eval (Violent)')",50
+"('228903', 'Altered Respiratory Status NCP - Goal')",49
+"('225724', 'Cordis/Introducer Line Tip Cultured')",49
+"('228502', 'Impaired Skin #7- Location')",49
+"('228504', 'Impaired Skin #9- Location')",49
+"('227355', 'IABP Dressing Occlusive')",48
+"('224929', 'Impaired Skin Odor #8')",48
+"('224676', 'Nausea and Vomiting (CINA)')",47
+"('224674', 'Changes in Temperature')",47
+"('229140', 'Substance withdrawal NCP - Plan revised')",47
+"('224429', 'CT #4 Crepitus')",47
+"('229001', 'Self harm NCP - Expected outcomes')",47
+"('225031', 'Dressing Status #5')",47
+"('224672', 'Yawning')",46
+"('224671', 'Pupils')",46
+"('224670', 'Lacrimation')",46
+"('224669', 'Restlessness')",46
+"('224668', 'Sweating')",46
+"('224667', 'Goose Flesh')",46
+"('228746', 'Pressure ulcer #4- Surrounding tissue')",46
+"('224677', 'Tremor (CINA)')",45
+"('224675', 'Muscle Aches')",45
+"('224673', 'Abdominal Changes: Observation')",45
+"('224666', 'Nasal Congestion')",45
+"('229540', 'Sheath Type')",45
+"('220650', 'Total Protein')",44
+"('228521', 'Impaired Skin #4- Cleanse')",44
+"('227602', 'Impaired Skin Length #9')",44
+"('227614', 'Impaired Skin Width #9')",44
+"('229330', 'Activity Intolerance  NCP - Interventions')",44
+"('227476', 'Incision Site #5')",44
+"('227617', 'Impaired Skin Wound Base #10')",44
+"('228605', 'Impaired Skin #6- Dressing Status')",43
+"('225026', 'Incision Dressing #5')",43
+"('225001', 'Incision Cleansing #5')",43
+"('227594', 'Impaired Skin Cleanse #9')",43
+"('227606', 'Impaired Skin Site #9')",43
+"('227608', 'Impaired Skin Treatment #9')",43
+"('227612', 'Impaired Skin Type #9')",43
+"('227618', 'Pressure Ulcer Stage #9')",43
+"('227788', 'Impaired Skin  - Dressing Status #9')",43
+"('224431', 'CT #4 Drainage')",42
+"('224433', 'CT #4 Dressing')",42
+"('224435', 'CT #4 Fluctuate')",42
+"('224781', 'CT #4 Leak')",42
+"('229454', 'Exam-Ext/MSK')",42
+"('225771', 'Sheath Zero/Calibrate')",41
+"('228755', 'Pressure ulcer #3- Drainage')",41
+"('229706', 'CP-Pain Assessment Method-Post')",41
+"('229015', 'Incision #7- Location')",41
+"('226121', 'Tunneled (Hickman) placed in outside facility')",40
+"('225695', 'Uric Acid')",40
+"('224977', 'Surrounding Tissue #7')",40
+"('228503', 'Impaired Skin #8- Location')",40
+"('227586', 'GI pH')",40
+"('229033', 'Incision Appearance #7')",40
+"('224447', 'Family Meeting')",39
+"('228162', 'Impella Catheter Position')",39
+"('228164', 'Impella Catheter Site')",39
+"('229028', 'Incision #7- Treatment')",39
+"('228986', 'Safety Restraints NCP - Goal')",39
+"('227440', 'Digoxin')",38
+"('228174', 'Impella Line Site Appear')",38
+"('224019', 'Bladder Irrigation')",38
+"('229452', 'Exam-Neuro')",38
+"('228930', 'Impaired Tissue Perfusion NCP - Outcomes met')",37
+"('229680', 'Impella Line Type')",37
+"('228382', 'Total Peripheral Resistance Index (TPRI) (NICOM)')",37
+"('228698', 'Abdominal - (GI / Hepatic / Renal)')",36
+"('226815', 'Airway problems')",36
+"('228604', 'Impaired Skin #5- Dressing Status')",36
+"('229041', 'Incision Closure #7')",36
+"('224367', 'Epidural Total Dose (mL)')",35
+"('228381', 'Total Peripheral Resistance (TPR) (NICOM)')",35
+"('228581', 'Impaired Skin #6- Type')",35
+"('229880', 'PICC Biopatch')",35
+"('225739', 'Cordis/Introducer Discontinued')",34
+"('227605', 'Impaired Skin Odor #10')",34
+"('227599', 'Impaired Skin Drainage #10')",34
+"('229288', 'Nutrition')",33
+"('224420', 'Vital Cap')",33
+"('224176', 'MDI #3 Drug')",33
+"('229037', 'Incision #7- Dressing Status')",33
+"('225387', 'Presep Catheter Site Appear')",33
+"('228713', 'Vascular')",32
+"('227812', 'Medication Infusion Rate - Adjunctive Pain Management')",32
+"('229292', 'GI Prophy')",32
+"('224411', 'Epidural Bolus (mL)')",32
+"('228765', 'Pressure ulcer #3- Drainage amount')",32
+"('228878', 'PeCO2')",32
+"('228372', 'Leg Raise Result (NICOM)')",32
+"('227131', 'Cont. Neb Med Dose')",32
+"('225043', 'Incision Packing #2')",32
+"('228859', 'Impaired Skin #7- Type')",32
+"('224410', 'PCA bolus')",32
+"('224446', 'GI #3 Tube Drainage')",32
+"('227609', 'Impaired Skin Treatment #10')",32
+"('227760', 'Presep Catheter Placement Confirmed by X-ray')",32
+"('226116', 'Presep Catheter placed in outside facility')",32
+"('224359', 'QTc')",31
+"('229082', 'Rounds included')",31
+"('228860', 'Impaired Skin #8- Type')",31
+"('227786', 'Impaired Skin  - Dressing Status #7')",31
+"('225388', 'Presep Catheter Waveform Appear')",31
+"('227444', 'C Reactive Protein (CRP)')",30
+"('228867', 'Assist Device')",30
+"('228785', 'Pressure ulcer #3- Cleanse')",30
+"('228536', 'Impaired Skin #8- Treatment')",30
+"('229355', 'Absolute Neutrophil Count')",30
+"('227543', 'CO (Arterial)')",30
+"('227652', 'Lochia Estimate')",30
+"('228704', 'Neurological')",29
+"('229147', 'Metabolic disturbance NCP - Plan revised')",29
+"('223925', 'Seizure Duration')",29
+"('228172', 'Impella Postion Confirmed')",29
+"('228377', 'SVI Change')",29
+"('228370', 'CO / CI Change')",29
+"('229333', 'Activity Intolerance NCP - Plan revised')",29
+"('224897', 'Impaired Skin Depth #4')",29
+"('229309', 'Backup Controller (HeartWare)')",28
+"('227547', 'SV (Arterial)')",28
+"('227364', 'RIC Dressing Occlusive')",27
+"('226140', 'RIC placed in outside facility')",27
+"('224928', 'Impaired Skin Odor #7')",27
+"('227727', 'AVA Line placed in outside facility')",27
+"('227723', 'AVA Dressing Occlusive')",27
+"('227653', 'Pad Change/Hour')",27
+"('229464', 'Discussed on Rounds')",26
+"('228552', 'Pressure Ulcer #4- Type')",26
+"('229594', 'Exam-GI/GU')",26
+"('229375', 'UF Heparin (Anti-Xa)')",26
+"('225730', 'PA Catheter Line Tip Cultured')",26
+"('229045', 'Incision Drainage #7')",26
+"('228845', 'Pressure ulcer #3- Undermining present')",26
+"('228835', 'Pressure ulcer #3- Tunneling present')",26
+"('228542', 'Pressure Ulcer #4- Treatment')",25
+"('229293', 'Pain Control')",25
+"('228535', 'Impaired Skin #7- Treatment')",25
+"('229334', 'Activity Intolerance  NCP - Problem resolved')",25
+"('224175', 'MDI #3 Puff')",25
+"('229087', 'Critically ill')",24
+"('228568', 'Incision #4- Cleanse')",24
+"('227728', 'AVA Line Site Appear')",24
+"('227732', 'AVA Line Placement Confirmed by X-ray')",24
+"('227651', 'Lochia Character')",24
+"('228570', 'Incision #6- Cleanse')",24
+"('227595', 'Impaired Skin Cleanse #10')",24
+"('227597', 'Impaired Skin Depth #10')",24
+"('227603', 'Impaired Skin Length #10')",24
+"('227607', 'Impaired Skin Site #10')",24
+"('227613', 'Impaired Skin Type #10')",24
+"('227615', 'Impaired Skin Width #10')",24
+"('227623', 'Tunneling Present #10')",24
+"('227625', 'Undermining Present #10')",24
+"('228171', 'Impella Placement Confirmed')",23
+"('229160', 'Timespent')",23
+"('228816', 'Pressure ulcer #4- Stage')",23
+"('228736', 'Pressure ulcer #4- Wound Base')",23
+"('228726', 'Pressure ulcer #4- Length')",23
+"('228623', 'Pressure Ulcer #4- Width')",23
+"('228509', 'Pressure Ulcer #4- Location')",23
+"('228775', 'Pressure ulcer #3- Odor')",23
+"('224707', 'T High (APRV)')",23
+"('227648', 'Clots')",23
+"('227642', 'Breast Feeding')",23
+"('228017', 'RIC Phlebitis Scale')",22
+"('228707', 'Progress')",22
+"('229592', 'Exam-GU')",22
+"('224705', 'P High (APRV)')",22
+"('227815', 'Site Appearance - Adjunctive Pain Management')",22
+"('228537', 'Impaired Skin #9- Treatment')",22
+"('229113', 'Self harm NCP - Problem resolved')",22
+"('227621', 'Surrounding Tissue #10')",22
+"('228505', 'Impaired Skin #10- Location')",22
+"('224112', 'Traction/Immobile #1')",22
+"('228018', 'RIC Infiltration Scale')",21
+"('224167', 'Manual Blood Pressure Systolic Left')",21
+"('229416', 'Disposition')",21
+"('220580', 'Ammonia')",21
+"('228445', 'Angio Appearance # 3')",21
+"('227730', 'AVA Waveform Appearance')",21
+"('225725', 'Dialysis Catheter Tip Cultured')",21
+"('228945', 'Infection NCP - Goal')",21
+"('228719', 'Vented')",20
+"('224643', 'Manual Blood Pressure Diastolic Left')",20
+"('228163', 'Impella Catheter Repositioned')",20
+"('224856', 'Restraints Ordered')",20
+"('228449', 'Angio Site # 3')",20
+"('224713', 'Circuit Changed')",20
+"('225395', 'Triple Introducer Site Appear')",20
+"('224985', 'Tunneling Present #8')",20
+"('224992', 'Undermining Present #8')",20
+"('225636', 'D-Dimer')",19
+"('229434', 'Unable to obtain')",19
+"('227581', 'BiPap bpm (S/T -Back up)')",19
+"('227115', 'PCA bolus units')",19
+"('224709', 'T Low (APRV)')",19
+"('224706', 'P Low (APRV)')",19
+"('224704', 'ATC %')",19
+"('228691', 'Febrile last 24 hours')",18
+"('225745', 'PA Catheter Discontinued')",18
+"('227807', 'In-line Suction Catheter Changed')",18
+"('228584', 'Impaired Skin #9- Type')",18
+"('228608', 'Impaired Skin #9- Dressing Status')",18
+"('228447', 'Angio Dressing # 3')",18
+"('228705', 'Nutrition')",17
+"('225044', 'Incision Packing #3')",17
+"('227242', 'Manual Blood Pressure Diastolic Right')",17
+"('227243', 'Manual Blood Pressure Systolic Right')",17
+"('229448', 'See eMAR for meds')",17
+"('224900', 'Impaired Skin Depth #7')",17
+"('228689', 'Discharge from ICU')",17
+"('224971', 'Pressure Ulcer Stage #8')",17
+"('227601', 'Impaired Skin Drainage Amount #10')",17
+"('229559', 'Cardiac Assist Cannula Site Appear')",17
+"('227764', 'Tunneled (Hickman) Placement Confirmed by X-ray')",16
+"('229534', 'Multi Lumen - Obturator in place')",16
+"('225738', 'CCO PAC Discontinued')",16
+"('229455', 'Exam-Skin')",16
+"('229865', 'No Pressure Injury Present')",16
+"('227649', 'Fundus Character')",16
+"('225389', 'Presep Catheter Zero/Calibrate')",16
+"('228935', 'Post-op Care NCP - Goal')",15
+"('228569', 'Incision #5- Cleanse')",15
+"('229016', 'Incision #8- Location')",15
+"('229042', 'Incision Closure #8')",15
+"('229079', 'Pain Controlled')",14
+"('228701', 'Hematological / Skin')",14
+"('229377', 'Part 1 Question')",14
+"('229379', 'Swallow Eval')",14
+"('228738', 'Pressure ulcer #6- Wound Base')",14
+"('228756', 'Pressure ulcer #4- Drainage')",14
+"('228806', 'Pressure ulcer #4- Dressing status')",14
+"('228522', 'Impaired Skin #5- Cleanse')",14
+"('224178', 'Small Volume Neb Dose #2')",14
+"('228607', 'Impaired Skin #8- Dressing Status')",14
+"('227354', 'Triple Introducer Dressing Occlusive')",14
+"('226120', 'Triple Introducer placed in outside facility')",14
+"('227670', 'Violent Restraints')",14
+"('229029', 'Incision #8- Treatment')",14
+"('229038', 'Incision #8- Dressing Status')",14
+"('227134', 'ATC Tube #')",14
+"('224991', 'Undermining Present #7')",14
+"('224984', 'Tunneling Present #7')",14
+"('228979', 'Altered Mental Status  NCP - outcomes met')",14
+"('228955', 'Coping/Knowledge Deficit  NCP - Goal')",14
+"('224749', 'Nitric Oxide')",13
+"('228907', 'Altered Respiratory Status NCP - outcomes met')",13
+"('229378', 'Part 2 Question')",13
+"('225723', 'CCO PAC Line Tip Cultured')",13
+"('228818', 'Pressure ulcer #6- Stage')",13
+"('228748', 'Pressure ulcer #6- Surrounding tissue')",13
+"('228554', 'Pressure Ulcer #6- Type')",13
+"('228511', 'Pressure Ulcer #6- Location')",13
+"('229453', 'Exam-GI/GU')",13
+"('228861', 'Impaired Skin #9- Type')",13
+"('228302', 'CAM-ICU RASS LOC')",13
+"('228990', 'Safety Restraints NCP - Outcomes met')",13
+"('226092', 'Orthostatic BPd lying')",12
+"('224645', 'Orthostatic BPs lying')",12
+"('223764', 'Orthostatic HR lying')",12
+"('228758', 'Pressure ulcer #6- Drainage')",12
+"('228544', 'Pressure Ulcer #6- Treatment')",12
+"('223840', 'ETT Re-taped')",12
+"('228523', 'Impaired Skin #6- Cleanse')",12
+"('227731', 'AVA Line Zero/Calibrate')",12
+"('227650', 'Fundus Location (Breadth)')",12
+"('228301', 'CAM-ICU Inattention')",12
+"('229034', 'Incision Appearance #8')",12
+"('227589', 'GI #2 Tube Place Method')",12
+"('228538', 'Impaired Skin #10- Treatment')",12
+"('227763', 'Triple Introducer Placement Confirmed by X-ray')",12
+"('225397', 'Triple Introducer Waveform Appear')",12
+"('226094', 'Orthostatic BPd sitting')",11
+"('224646', 'Orthostatic BPs sitting')",11
+"('223765', 'Orthostatic HR sitting')",11
+"('228786', 'Pressure ulcer #4- Cleanse')",11
+"('228766', 'Pressure ulcer #4- Drainage amount')",11
+"('227447', 'Gentamicin (Random)')",11
+"('227348', 'Low risk (25-50) interventions')",11
+"('228451', 'Compression device # 3')",11
+"('228697', 'Mobilization Plan')",11
+"('229112', 'Self harm NCP - Plan revised')",11
+"('229761', 'Creatinine (whole blood)')",11
+"('228694', 'ICU Consent')",11
+"('227643', 'Breast Feeding - L')",11
+"('227644', 'Breast Feeding - R')",11
+"('227645', 'Breast Feed - L (Minutes)')",11
+"('227646', 'Breast Feed - R (Minutes)')",11
+"('227990', 'Intra Cranial Pressure #2 Alarm - High')",11
+"('227991', 'Intra Cranial Pressure #2 Alarm - Low')",11
+"('227452', 'Tobramycin (Trough)')",11
+"('228585', 'Impaired Skin #10- Type')",11
+"('227622', 'Tunneling Present #9')",11
+"('227624', 'Undermining Present #9')",11
+"('228949', 'Infection NCP - outcomes met')",11
+"('225371', 'Pheresis Catheter Site Appear')",10
+"('226122', 'Pheresis Catheter placed in outside facility')",10
+"('227362', 'Pheresis Catheter Dressing Occlusive')",10
+"('227758', 'Pheresis Catheter Placement Confirmed by X-ray')",10
+"('229502', 'MDnoteConsent')",10
+"('228583', 'Impaired Skin #8- Type')",10
+"('228102', 'Enema administration')",10
+"('229239', 'FiO2 Challenge Result')",10
+"('229238', 'FiO2 Challenge')",10
+"('227451', 'Tobramycin (Random)')",10
+"('224750', 'Nitric Oxide Tank Pressure')",9
+"('225764', 'Sheath Line Discontinued')",9
+"('226184', 'Estimated Protein Needs/Kg')",9
+"('226183', 'Estimated Energy Needs/Kg')",9
+"('227129', 'Pheresis Catheter Type')",9
+"('225108', 'Tobacco use')",9
+"('228939', 'Post-op Care NCP - Outcomes met')",9
+"('225747', 'PICC Line Discontinued')",9
+"('226131', 'ICP Line Tip Cultured')",9
+"('228606', 'Impaired Skin #7- Dressing Status')",9
+"('227449', 'Gentamicin (Trough)')",9
+"('229046', 'Incision Drainage #8')",9
+"('224901', 'Impaired Skin Depth #8')",9
+"('229241', 'P1 Alarm - Low')",9
+"('229240', 'P1 Alarm - High')",9
+"('226096', 'Orthostatic BPd standing')",8
+"('224647', 'Orthostatic HR standing')",8
+"('223766', 'Orthostatic BPs standing')",8
+"('228768', 'Pressure ulcer #6- Drainage amount')",8
+"('228379', 'TFCd0 (NICOM)')",8
+"('228582', 'Impaired Skin #7- Type')",8
+"('227470', 'Sed Rate')",8
+"('229475', 'Indwelling Port (PortaCath) Power Port')",8
+"('224711', 'Recruitment Duration')",8
+"('224712', 'Recruitment Mode')",8
+"('228706', 'Pain control old')",7
+"('225740', 'Dialysis Catheter Discontinued')",7
+"('224181', 'Small Volume Neb Drug #1')",7
+"('224859', 'Status and Comfort (Behavioral)')",7
+"('228290', 'IO Dressing')",7
+"('228292', 'IO Placed in outside facility')",7
+"('228293', 'IO Site Appearance')",7
+"('228294', 'IO Wristband in place')",7
+"('228378', 'TFCd (NICOM)')",7
+"('225768', 'Sheath Line Tip Cultured')",7
+"('227943', 'Anticipated Discharge')",7
+"('224192', 'Pulsus Paradoxus')",7
+"('225990', 'Pericardial Drain Flush')",7
+"('224710', 'Recruitment Press')",7
+"('226504', 'Phenytoin (Free)')",7
+"('225734', 'Presep Catheter Line Tip Cultured')",7
+"('224070', 'Sitter')",7
+"('227441', 'LDL measured')",6
+"('224728', 'Peak Exp Flow Rate')",6
+"('228510', 'Pressure Ulcer #5- Location')",6
+"('228553', 'Pressure Ulcer #5- Type')",6
+"('228624', 'Pressure Ulcer #5- Width')",6
+"('228727', 'Pressure ulcer #5- Length')",6
+"('228747', 'Pressure ulcer #5- Surrounding tissue')",6
+"('228817', 'Pressure ulcer #5- Stage')",6
+"('224061', 'Reason for Restraint (Behavioral)_V1')",6
+"('224858', 'Patient Behavior During Application')",6
+"('224166', 'Doppler BP')",6
+"('228710', 'Sedation goal')",6
+"('229019', 'Incision #7- Cleanse')",6
+"('229049', 'Incision Drainage Amount #7')",6
+"('229050', 'Incision Drainage Amount #8')",6
+"('225182', 'PT Splint Status #2')",6
+"('225239', '14 Gauge Reason Discontinued')",5
+"('226125', 'ICP Line Discontinued')",5
+"('225743', 'Midline Discontinued')",5
+"('228788', 'Pressure ulcer #6- Cleanse')",5
+"('228778', 'Pressure ulcer #6- Odor')",5
+"('228543', 'Pressure Ulcer #5- Treatment')",5
+"('228757', 'Pressure ulcer #5- Drainage')",5
+"('228767', 'Pressure ulcer #5- Drainage amount')",5
+"('228777', 'Pressure ulcer #5- Odor')",5
+"('227831', 'Grooming')",5
+"('227835', 'UE Dressing')",5
+"('227469', 'Thrombin')",5
+"('227654', 'Reflexes LE')",5
+"('227655', 'Reflexes UE')",5
+"('224456', 'PT Splint Location #2')",5
+"('227858', 'Rest HR - Aerobic Capacity')",5
+"('227861', 'Rest O2 Sat - Aerobic Capacity')",5
+"('224444', 'GI #3 Tube Place Check')",5
+"('227845', 'Rolling')",5
+"('227419', 'Presep Catheter Dressing Occlusive')",5
+"('225760', 'RIC Site Appear')",4
+"('224389', 'Heart Sounds')",4
+"('228787', 'Pressure ulcer #5- Cleanse')",4
+"('228849', 'Pressure ulcer #7- Undermining present')",4
+"('228839', 'Pressure ulcer #7- Tunneling present')",4
+"('228819', 'Pressure ulcer #7- Stage')",4
+"('228749', 'Pressure ulcer #7- Surrounding tissue')",4
+"('228739', 'Pressure ulcer #7- Wound Base')",4
+"('228555', 'Pressure Ulcer #7- Type')",4
+"('228545', 'Pressure Ulcer #7- Treatment')",4
+"('228512', 'Pressure Ulcer #7- Location')",4
+"('227837', 'Toileting')",4
+"('225742', 'IABP Line Discontinued')",4
+"('220194', 'Temporary AV interval')",4
+"('229864', 'Pressure Injury Location')",4
+"('227450', 'Tobramycin (Peak)')",4
+"('224970', 'Pressure Ulcer Stage #7')",4
+"('224392', 'ETT Position Change')",4
+"('227860', 'Rest RR - Aerobic Capacity')",4
+"('227836', 'LE Dressing')",4
+"('227846', 'Supine / Side-lying to Sit')",4
+"('228959', 'Coping/Knowledge Deficit  NCP - outcomes met')",4
+"('228886', 'Pain NCP - Goal')",3
+"('227813', 'Medication Bolus - Adjunctive Pain Management')",3
+"('228809', 'Pressure ulcer #7- Dressing status')",3
+"('228789', 'Pressure ulcer #7- Cleanse')",3
+"('228769', 'Pressure ulcer #7- Drainage amount')",3
+"('228759', 'Pressure ulcer #7- Drainage')",3
+"('227448', 'Gentamicin (Peak)')",3
+"('229433', 'Systems reviewed')",3
+"('225748', 'Indwelling Port (PortaCath) Discontinued')",3
+"('227830', 'Self Feeding')",3
+"('227775', 'Skeletal Traction #1 - Pounds')",3
+"('228380', 'Thoracic Fluid Content (TFC) (NICOM)')",3
+"('225398', 'Triple Introducer Zero/Calibrate')",3
+"('229813', 'Reason for Trigger (RN)')",3
+"('225956', 'Reason for CRRT Filter Change')",3
+"('228609', 'Impaired Skin #10- Dressing Status')",3
+"('227867', 'Activity O2 Sat - Aerobic Capacity')",3
+"('227866', 'Activity RR - Aerobic Capacity')",3
+"('227864', 'Activity HR - Aerobic Capacity')",3
+"('227848', 'Transfer')",3
+"('228711', 'Time spent')",3
+"('225750', 'Trauma Line Discontinued')",2
+"('228808', 'Pressure ulcer #6- Dressing status')",2
+"('224814', 'GI #1 Tube Place Method')",2
+"('229421', 'ROS-General')",2
+"('229423', 'ROS-Neuro')",2
+"('225692', 'Total Granulocyte Count (TGC)')",2
+"('227636', 'Knee Location - CPM')",2
+"('227672', 'Violent Restraints Ordered')",2
+"('227725', 'AVA Line Discontinued')",2
+"('226541', 'ScvO2 Central Venous O2% Sat')",2
+"('229634', 'Daily Activity (AM-PAC)')",2
+"('227832', 'UE Bathing')",2
+"('227834', 'LE Bathing')",2
+"('227905', 'Patient agrees with the above goals and is willing to participate in the rehabilitation program')",2
+"('227873', 'Recovery O2 Sat - Aerobic Capacity')",2
+"('227870', 'Recovery HR - Aerobic Capacity')",2
+"('227847', 'Sit to Stand')",2
+"('228167', 'Impella Dressing Occlusive')",2
+"('225728', 'Midline Tip Cultured')",2
+"('225191', 'Ostomy Care')",2
+"('225759', 'RIC Reason Discontinued')",1
+"('228889', 'Pain NCP - Outcomes met')",1
+"('228170', 'Impella Line Discontinued')",1
+"('229625', 'Patient on Veletri')",1
+"('228897', 'Impaired Fluid Balance NCP - Outcomes met')",1
+"('228895', 'Impaired Fluid Balance NCP - Goal')",1
+"('228779', 'Pressure ulcer #7- Odor')",1
+"('228776', 'Pressure ulcer #4- Odor')",1
+"('225190', 'Pin Care')",1
+"('228524', 'Impaired Skin #7- Cleanse')",1
+"('227596', 'Impaired Skin Depth #9')",1
+"('228526', 'Impaired Skin #9- Cleanse')",1
+"('227916', 'Rest HR -  Aerobic Activity Response')",1
+"('227918', 'Rest RR - Aerobic Activity Response')",1
+"('227919', 'Rest O2 Sat - Aerobic Activity Response')",1
+"('227923', 'Activity HR - Aerobic Activity Response')",1
+"('227925', 'Activity RR - Aerobic Activity Response')",1
+"('227926', 'Activity O2 sat - Aerobic Activity Response')",1
+"('228641', 'EtCO2 Clinical indication')",1
+"('229431', 'ROS-Extremeties / MSK')",1
+"('225736', 'Triple Introducer Line Tip Cultured')",1
+"('227647', 'Clot Size (cm)')",1
+"('224314', 'ABI Brachial BP R (Impella)')",1
+"('224317', 'ABI Ankle BP R')",1
+"('224315', 'ABI Brachial BP L')",1
+"('224318', 'ABI Ankle BP L (Impella)')",1
+"('229862', 'Forehead SpO2 Sensor in Place')",1
+"('224091', 'Continuous Pressure Machine Status')",1
+"('225735', 'Trauma Line Tip Cultured')",1
+"('229005', 'Self harm NCP - Outcomes met')",1
+"('227839', 'Home Management')",1
+"('227840', 'Money Management')",1
+"('227841', 'Community Integration')",1
+"('229505', 'Surgibra')",1
+"('225749', 'Presep Catheter Discontinued')",1
+"('228193', 'Oxygenator/ECMO')",1
+"('229539', 'ICP - Camino marked')",1
+"('228525', 'Impaired Skin #8- Cleanse')",1
+"('227726', 'AVA Line Tip Cultured')",1
+"('229770', 'Resting Pulse Rate (COWS)')",1
+"('229775', 'Yawning (COWS)')",1
+"('229774', 'Tremor (COWS)')",1
+"('229773', 'Sweating (COWS)')",1
+"('229772', 'Runny Nose/Tearing (COWS)')",1
+"('229771', 'Restlessness (COWS)')",1
+"('229769', 'Pupil Size (COWS)')",1
+"('229768', 'Gooseflesh Skin (COWS)')",1
+"('229767', 'GI Upset (COWS)')",1
+"('229766', 'Bone/Joint Aches (COWS)')",1
+"('229765', 'Anxiety/Irritability (COWS)')",1
+"('225989', 'Pericardial Drain Aspiration')",1
