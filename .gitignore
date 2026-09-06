@@ -1,0 +1,6 @@
+flattened/
+inventory_output/
+tokens_output/
+__pycache__/
+tokens_*.txt
+training_example_*.json

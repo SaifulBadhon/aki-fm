@@ -164,11 +164,27 @@ CHARTEVENTS_CATEGORY_SCOPE = {
         "OT Notes",
         "Swallow Evaluation",
         "RNTriggerNote",
+        # RESOLVED: name is misleading — sample records showed only
+        # nursing-care/equipment items (Position, Pressure Reducing Device,
+        # Therapeutic Bed, Assistance Device, Activity Tolerance), not
+        # genuine medical interventions.
+        "Treatments",
     ],
-    "needs_review": [
-        "Treatments",  # too generic to classify by name alone — inspect sample records
-        "General",     # same — inspect sample records before deciding
-    ],
+    "include_as_static": {
+        # RESOLVED: "General" contains admission-time anthropometrics
+        # (weight, height) and unit/service type — measured ONCE per
+        # admission, not repeatedly like vitals. Route these to the
+        # STATIC token set (alongside age/sex/comorbidities), not the
+        # time-varying stream. Weight is REQUIRED for the KDIGO oliguria
+        # criterion (mL/kg/h) — not optional.
+        # NOTE: units are inconsistent (weight in both lbs AND kg, height
+        # in both cm AND inches) — canonicalize to metric (kg, cm) before
+        # use, same whitespace/case-style trap as eICU's urine labels.
+        "category": "General",
+        "keep_items": ["Admission Weight (lbs.)", "Admission Weight (Kg)",
+                        "Height (cm)", "Height", "Service"],
+    },
+    "needs_review": [],  # RESOLVED — Treatments and General both classified above
     "special_handling": {
         "Dialysis": (
             "NOT a plain include/exclude. (1) Used as a COHORT EXCLUSION "
@@ -179,19 +195,53 @@ CHARTEVENTS_CATEGORY_SCOPE = {
             "start dialysis DURING the stay as a treatment response."
         ),
         "Labs": (
-            "PENDING — this chartevents category appears to duplicate real "
-            "labevents values (e.g. potassium, HCO3 seen under both). "
-            "Need to check whether these are genuinely separate point-of-"
-            "care/bedside draws or re-entered duplicates of the same lab "
-            "before deciding whether to include, exclude, or deduplicate."
+            "RESOLVED — checked overlap with labevents item codes: 0 of "
+            "102 chartevents 'Labs' codes exist in labevents. These are "
+            "genuinely separate point-of-care/bedside measurements, NOT "
+            "duplicates. INCLUDE this category. See 'creatinine_poc' below "
+            "for one notable item found in this category."
         ),
     },
 }
 
+# ---------------------------------------------------------------------------
+# Secondary / bonus concepts (NOT used for labeling — feature-only)
+# ---------------------------------------------------------------------------
+#
+# Found via the chartevents 'Labs' category overlap check: a point-of-care
+# whole-blood creatinine assay, distinct from the primary labeling-grade
+# serum creatinine (concept 'creatinine_serum' above, code 50912).
+#
+# Point-of-care assays are generally less authoritative for clinical
+# diagnosis than the central lab, so this must NEVER be used for KDIGO
+# labeling — only as an auxiliary input feature. Its real value: it likely
+# returns faster than the central lab result (`issued` delay), giving the
+# model an earlier, low-latency signal ahead of the official lab value —
+# directly useful for the "why 2 hours" early-warning use case.
 
-# ---------------------------------------------------------------------------
-# Structural notes (see full write-up in chat / project doc)
-# ---------------------------------------------------------------------------
+SECONDARY_CONCEPTS = {
+    "creatinine_poc_whole_blood": {
+        "description": (
+            "Point-of-care whole-blood creatinine — FEATURE ONLY, never "
+            "used for AKI labeling (labeling stays on 'creatinine_serum' "
+            "for clinical validity and comparability with prior literature)."
+        ),
+        "mimic_fhir": {
+            "resource": "MimicObservationChartevents",
+            "include_codes": ["229761"],  # display: "Creatinine (whole blood)"
+            "category": "Labs",
+        },
+        "eicu": {
+            "status": "NOT YET CHECKED — eICU lab.csv's 'creatinine' entry "
+                      "may already be a blended/POC+lab value; needs its own "
+                      "verification pass before assuming eICU has an "
+                      "equivalent split.",
+        },
+    },
+}
+
+
+
 #
 # 1. MIMIC chartevents = long format (1 row = 1 variable at 1 time).
 #    eICU vitalPeriodic  = wide format (1 row = all vitals at 1 time,

@@ -5,10 +5,6 @@ Quick exploration script: load a handful of records from MIMIC-IV-on-FHIR
 and eICU-CRD side by side, so we can see the real field names/structure
 before designing the common tokenizer schema.
 
-Run this on the server, inside your conda env:
-    conda activate aki-fm
-    pip install pandas   # if not already installed
-    python3 explore_data.py
 """
 
 import gzip

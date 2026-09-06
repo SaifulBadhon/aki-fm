@@ -5,10 +5,6 @@ Automated, at-scale inventory of ALL distinct clinical concepts across
 MIMIC-FHIR and eICU-CRD — NOT hand-verified like creatinine/urine output
 in concept_map.py, just a full census so we know the real scope of
 "all features" before deciding how the tokenizer should embed them.
-
-Run this on the server:
-    conda activate aki-fm
-    python3 inventory_concepts.py
 """
 
 import gzip
