@@ -30,6 +30,48 @@ import pandas as pd
 
 TOKENS_DIR = Path("tokens_output")
 
+SEGMENT_MAX_DURATION_MIN = 180  # a segment spans at most 3 hours
+SEGMENT_MAX_TOKENS = 64          # or at most 64 tokens, whichever comes first
+
+
+def assign_segment_ids(times: list) -> list:
+    """
+    Irregularity-aware segmentation: walks through TIME-SORTED tokens and
+    starts a new segment whenever either bound is exceeded — a maximum
+    time span (3 hours) or a maximum token count (64). This means dense
+    periods (e.g. a burst of admission labs, or frequent vitalPeriodic
+    readings) naturally produce more, SHORTER-duration segments, while
+    sparse periods produce fewer, LONGER-duration segments — the segment
+    boundaries follow the real data density, not a fixed clock grid.
+
+    Returns a list of segment IDs (one per token, same order as input).
+    Tokens sharing an identical time_min always land in the same segment,
+    since a new segment only starts strictly AFTER the previous token's
+    time — consistent with how we handle simultaneous events elsewhere.
+    """
+    if not times:
+        return []
+
+    segment_ids = [0]
+    segment_start_time = times[0]
+    current_segment = 0
+    tokens_in_current_segment = 1
+
+    for i in range(1, len(times)):
+        t = times[i]
+        duration_exceeded = (t - segment_start_time) > SEGMENT_MAX_DURATION_MIN
+        count_exceeded = tokens_in_current_segment >= SEGMENT_MAX_TOKENS
+
+        if duration_exceeded or count_exceeded:
+            current_segment += 1
+            segment_start_time = t
+            tokens_in_current_segment = 0
+
+        segment_ids.append(current_segment)
+        tokens_in_current_segment += 1
+
+    return segment_ids
+
 
 class AKIDataset(Dataset):
     def __init__(self, parquet_path: Path, vocab_path: Path):
@@ -81,6 +123,7 @@ class AKIDataset(Dataset):
             concept_ids, values_numeric, values_categorical, times, source_ids = [], [], [], [], []
 
         hazard_bins = json.loads(row["hazard_bins_hourly"])
+        segment_ids_list = assign_segment_ids(list(times))
 
         return {
             "stay_id": row["stay_id"],
@@ -90,6 +133,7 @@ class AKIDataset(Dataset):
             "values_categorical": torch.tensor(values_categorical, dtype=torch.long),
             "times": torch.tensor(times, dtype=torch.float),
             "source_ids": torch.tensor(source_ids, dtype=torch.long),
+            "segment_ids": torch.tensor(segment_ids_list, dtype=torch.long),
             "hazard_bins": torch.tensor(hazard_bins, dtype=torch.float),
             "event_type": row["event_type"],
         }
@@ -110,6 +154,7 @@ def collate_fn(batch: list) -> dict:
     values_categorical = torch.zeros(batch_size, max_len, dtype=torch.long)
     times = torch.zeros(batch_size, max_len, dtype=torch.float)
     source_ids = torch.zeros(batch_size, max_len, dtype=torch.long)
+    segment_ids = torch.zeros(batch_size, max_len, dtype=torch.long)
     attention_mask = torch.zeros(batch_size, max_len, dtype=torch.bool)
 
     # Hazard bins padded with -1 (ignore index) beyond each patient's actual length —
@@ -125,6 +170,7 @@ def collate_fn(batch: list) -> dict:
         values_categorical[i, :n] = item["values_categorical"]
         times[i, :n] = item["times"]
         source_ids[i, :n] = item["source_ids"]
+        segment_ids[i, :n] = item["segment_ids"]
         attention_mask[i, :n] = True
 
         h = len(item["hazard_bins"])
@@ -142,6 +188,7 @@ def collate_fn(batch: list) -> dict:
         "values_categorical": values_categorical,
         "times": times,
         "source_ids": source_ids,
+        "segment_ids": segment_ids,
         "attention_mask": attention_mask,
         "hazard_bins": hazard_bins,
         "event_types": event_types,
@@ -163,6 +210,7 @@ def main() -> None:
     example = dataset[0]
     print(f"  stay_id: {example['stay_id']}")
     print(f"  n_tokens: {len(example['concept_ids'])}")
+    print(f"  n_segments: {example['segment_ids'].max().item() + 1 if len(example['segment_ids']) > 0 else 0}")
     print(f"  hazard_bins length: {len(example['hazard_bins'])}")
     print(f"  event_type: {example['event_type']}")
 
@@ -171,6 +219,7 @@ def main() -> None:
     batch = next(iter(loader))
     print(f"  concept_ids shape: {batch['concept_ids'].shape}")
     print(f"  values_numeric shape: {batch['values_numeric'].shape}")
+    print(f"  segment_ids shape: {batch['segment_ids'].shape}")
     print(f"  hazard_bins shape: {batch['hazard_bins'].shape}")
     print(f"  attention_mask shape: {batch['attention_mask'].shape}")
     print(f"  stay_ids in this batch: {batch['stay_ids']}")
