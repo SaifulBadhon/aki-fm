@@ -153,7 +153,20 @@ def load_all_creatinine_tokens() -> pd.DataFrame:
     if mimic_path.exists():
         paths.append(mimic_path)
     paths.extend(sorted(TOKENS_DIR.glob("eicu_creatinine_tokens_part*.parquet")))
-    return pd.concat([pd.read_parquet(p) for p in paths], ignore_index=True)
+    df = pd.concat([pd.read_parquet(p) for p in paths], ignore_index=True)
+
+    # DEFENSIVE: same issue as label_aki.py — a rare non-numeric creatinine
+    # value (lab comment, unparseable result) can otherwise make this whole
+    # column mixed-type, breaking any later numeric comparison (e.g. the
+    # baseline-creatinine exclusion check).
+    n_before = len(df)
+    df["value"] = pd.to_numeric(df["value"], errors="coerce")
+    df = df.dropna(subset=["value"])
+    n_dropped = n_before - len(df)
+    if n_dropped > 0:
+        print(f"  [INFO] Dropped {n_dropped:,} non-numeric creatinine values before cohort construction.")
+
+    return df
 
 
 def get_first_creatinine_per_stay(creat_df: pd.DataFrame) -> pd.DataFrame:

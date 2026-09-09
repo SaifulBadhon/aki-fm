@@ -78,6 +78,13 @@ def main() -> None:
     creat_list_sql = ",".join(repr(c) for c in creatinine_codes)
     urine_list_sql = ",".join(repr(c) for c in urine_codes)
 
+    # BUG FIX: previously selected `value_numeric` only, which silently
+    # dropped every text-valued observation (e.g. CAM-ICU delirium result
+    # "Positive", device checks like "Patent") as NULL — these are real,
+    # meaningful categorical values stored in `value_string` in the
+    # flattened files, just never selected. COALESCE falls back to the
+    # text value whenever the numeric one is absent.
+
     # Using epoch-seconds subtraction rather than date_diff, since the
     # timestamps carry explicit UTC offsets (e.g. -04:00/-05:00) that can
     # differ across a long stay (daylight saving transitions) — casting
@@ -91,7 +98,7 @@ def main() -> None:
             SELECT DISTINCT
                 e.stay_id,
                 'creatinine_serum' AS concept,
-                l.value_numeric AS value,
+                COALESCE(CAST(l.value_numeric AS VARCHAR), l.value_string) AS value,
                 l.value_unit AS unit,
                 (epoch(l.time_str::TIMESTAMPTZ) - epoch(e.admission_start::TIMESTAMPTZ)) / 60.0 AS time_min,
                 'labevents' AS source_table
@@ -109,7 +116,7 @@ def main() -> None:
             SELECT DISTINCT
                 e.stay_id,
                 'urine_output' AS concept,
-                o.value_numeric AS value,
+                COALESCE(CAST(o.value_numeric AS VARCHAR), o.value_string) AS value,
                 o.value_unit AS unit,
                 (epoch(o.time_str::TIMESTAMPTZ) - epoch(e.admission_start::TIMESTAMPTZ)) / 60.0 AS time_min,
                 'outputevents' AS source_table
@@ -127,7 +134,7 @@ def main() -> None:
             SELECT DISTINCT
                 e.stay_id,
                 c.item_display AS concept,
-                c.value_numeric AS value,
+                COALESCE(CAST(c.value_numeric AS VARCHAR), c.value_string) AS value,
                 c.value_unit AS unit,
                 (epoch(c.time_str::TIMESTAMPTZ) - epoch(e.admission_start::TIMESTAMPTZ)) / 60.0 AS time_min,
                 'chartevents' AS source_table

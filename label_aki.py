@@ -107,6 +107,21 @@ def main() -> None:
     df = load_all_creatinine_tokens()
     print(f"  {len(df):,} creatinine rows across {df['stay_id'].nunique():,} stays")
 
+    # DEFENSIVE: creatinine 'value' should always be numeric, but now that
+    # batch_tokenize_all.py's COALESCE fix correctly recovers text values
+    # that used to be silently dropped as NULL, a rare non-numeric result
+    # (e.g. a lab comment like "Hemolyzed, unable to process") could
+    # surface and crash the arithmetic below. Coerce to numeric and drop
+    # anything that fails — these can't be used for KDIGO comparison
+    # regardless, and previously would have been NULL/excluded anyway.
+    n_before = len(df)
+    df["value"] = pd.to_numeric(df["value"], errors="coerce")
+    df = df.dropna(subset=["value"])
+    n_dropped = n_before - len(df)
+    if n_dropped > 0:
+        print(f"  [INFO] Dropped {n_dropped:,} non-numeric creatinine values "
+              f"(e.g. lab comments) before labeling — these can't be used for KDIGO comparison.")
+
     results = []
     for stay_id, group in df.groupby("stay_id"):
         label = label_patient(group)
