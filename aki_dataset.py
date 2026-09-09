@@ -74,10 +74,18 @@ def assign_segment_ids(times: list) -> list:
 
 
 class AKIDataset(Dataset):
-    def __init__(self, parquet_path: Path, vocab_path: Path):
+    def __init__(self, parquet_path: Path, vocab_path: Path, split: str = None, splits_path: Path = None):
         print(f"Loading {parquet_path}...")
         self.df = pd.read_parquet(parquet_path)
         print(f"  {len(self.df):,} patients")
+
+        if split is not None:
+            if splits_path is None:
+                splits_path = parquet_path.parent / "splits.parquet"
+            splits_df = pd.read_parquet(splits_path)
+            valid_ids = set(splits_df[splits_df["split"] == split]["stay_id"])
+            self.df = self.df[self.df["stay_id"].isin(valid_ids)].reset_index(drop=True)
+            print(f"  filtered to split='{split}': {len(self.df):,} patients")
 
         with open(vocab_path) as f:
             self.vocab = json.load(f)
