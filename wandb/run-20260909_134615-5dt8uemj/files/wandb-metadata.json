@@ -1,0 +1,47 @@
+{
+  "os": "Linux-6.12.69+deb13-amd64-x86_64-with-glibc2.41",
+  "python": "CPython 3.11.16",
+  "startedAt": "2026-09-09T18:46:15.820043Z",
+  "program": "/home/sb2691@students.ad.unt.edu/saiful/AKI/code/aki_model.py",
+  "codePath": "aki_model.py",
+  "codePathLocal": "aki_model.py",
+  "git": {
+    "remote": "git@github.com:SaifulBadhon/aki-fm.git",
+    "commit": "b76c9a75a5dc86d9aeb491d63164d842c3a3597a"
+  },
+  "email": "saifulbadhon.sb2@gmail.com",
+  "root": "/home/sb2691@students.ad.unt.edu/saiful/AKI/code",
+  "host": "ci-l-fgnndb4",
+  "executable": "/home/sb2691@students.ad.unt.edu/miniconda3/envs/aki-fm/bin/python3",
+  "cpu_count": 64,
+  "cpu_count_logical": 128,
+  "gpu": "NVIDIA H100 NVL",
+  "gpu_count": 2,
+  "disk": {
+    "/": {
+      "total": "443778220032",
+      "used": "10890891264"
+    }
+  },
+  "memory": {
+    "total": "540504715264"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA H100 NVL",
+      "memoryTotal": "100485038080",
+      "cudaCores": 16896,
+      "architecture": "Hopper",
+      "uuid": "GPU-3c5bfc54-e252-2250-5405-429f9d90eb0f"
+    },
+    {
+      "name": "NVIDIA H100 NVL",
+      "memoryTotal": "100485038080",
+      "cudaCores": 16896,
+      "architecture": "Hopper",
+      "uuid": "GPU-1488911f-9be2-873e-c707-ab65312ad74d"
+    }
+  ],
+  "cudaVersion": "12.4",
+  "writerId": "phbhc1w7erijbyzxllz2c3px5cd80db6"
+}

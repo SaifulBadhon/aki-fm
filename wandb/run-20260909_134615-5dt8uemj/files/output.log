@@ -1,0 +1,123 @@
+
+Starting training run: 2000 steps, evaluating every 200...
+  step     0: train_loss = 0.6882
+  step    20: train_loss = 0.5728
+  step    40: train_loss = 0.4686
+  step    60: train_loss = 0.3664
+  step    80: train_loss = 0.2535
+  step   100: train_loss = 0.2048
+  step   120: train_loss = 0.1341
+  step   140: train_loss = 0.1071
+  step   160: train_loss = 0.0737
+  step   180: train_loss = 0.0429
+  step   200: train_loss = 0.0435
+/home/sb2691@students.ad.unt.edu/miniconda3/envs/aki-fm/lib/python3.11/site-packages/torch/nn/modules/transformer.py:508: UserWarning: The PyTorch API of nested tensors is in prototype stage and will change in the near future. We recommend specifying layout=torch.jagged when constructing a nested tensor, as this layout receives active development, has better operator coverage, and works with torch.compile. (Triggered internally at /pytorch/aten/src/ATen/NestedTensorImpl.cpp:178.)
+  output = torch._nested_tensor_from_mask(
+  step   200: VAL_LOSS = 0.0640
+    -> new best val_loss, checkpoint saved
+  step   220: train_loss = 0.0377
+  step   240: train_loss = 0.0424
+  step   260: train_loss = 0.0483
+  step   280: train_loss = 0.0162
+  step   300: train_loss = 0.0250
+  step   320: train_loss = 0.0475
+  step   340: train_loss = 0.1004
+  step   360: train_loss = 0.0237
+  step   380: train_loss = 0.0101
+  step   400: train_loss = 0.0244
+  step   400: VAL_LOSS = 0.0505
+    -> new best val_loss, checkpoint saved
+  step   420: train_loss = 0.0475
+  step   440: train_loss = 0.0475
+  step   460: train_loss = 0.0343
+  step   480: train_loss = 0.0211
+  step   500: train_loss = 0.0478
+  step   520: train_loss = 0.0463
+  step   540: train_loss = 0.0359
+  step   560: train_loss = 0.0477
+  step   580: train_loss = 0.0240
+  step   600: train_loss = 0.0238
+  step   600: VAL_LOSS = 0.0493
+    -> new best val_loss, checkpoint saved
+  step   620: train_loss = 0.0072
+  step   640: train_loss = 0.0074
+  step   660: train_loss = 0.0546
+  step   680: train_loss = 0.0373
+  step   700: train_loss = 0.0556
+  step   720: train_loss = 0.0169
+  step   740: train_loss = 0.0343
+  step   760: train_loss = 0.0068
+  step   780: train_loss = 0.0262
+  step   800: train_loss = 0.0059
+  step   800: VAL_LOSS = 0.0494
+  step   820: train_loss = 0.0277
+  step   840: train_loss = 0.0367
+  step   860: train_loss = 0.0223
+  step   880: train_loss = 0.0558
+  step   900: train_loss = 0.0186
+  step   920: train_loss = 0.0056
+  step   940: train_loss = 0.0437
+  step   960: train_loss = 0.0080
+  step   980: train_loss = 0.0275
+  step  1000: train_loss = 0.0482
+  step  1000: VAL_LOSS = 0.0491
+    -> new best val_loss, checkpoint saved
+  step  1020: train_loss = 0.0042
+  step  1040: train_loss = 0.0193
+  step  1060: train_loss = 0.0315
+  step  1080: train_loss = 0.0064
+  step  1100: train_loss = 0.0205
+  step  1120: train_loss = 0.0214
+  step  1140: train_loss = 0.0457
+  step  1160: train_loss = 0.0210
+  step  1180: train_loss = 0.0204
+  step  1200: train_loss = 0.0298
+  step  1200: VAL_LOSS = 0.0487
+    -> new best val_loss, checkpoint saved
+  step  1220: train_loss = 0.0078
+  step  1240: train_loss = 0.0565
+  step  1260: train_loss = 0.0341
+  step  1280: train_loss = 0.0207
+  step  1300: train_loss = 0.0415
+  step  1320: train_loss = 0.0176
+  step  1340: train_loss = 0.0365
+  step  1360: train_loss = 0.0243
+  step  1380: train_loss = 0.0272
+  step  1400: train_loss = 0.0339
+  step  1400: VAL_LOSS = 0.0491
+  step  1420: train_loss = 0.0584
+  step  1440: train_loss = 0.0370
+  step  1460: train_loss = 0.0254
+  step  1480: train_loss = 0.0053
+  step  1500: train_loss = 0.0410
+  step  1520: train_loss = 0.0230
+  step  1540: train_loss = 0.0050
+  step  1560: train_loss = 0.0336
+  step  1580: train_loss = 0.0204
+  step  1600: train_loss = 0.0301
+  step  1600: VAL_LOSS = 0.0486
+    -> new best val_loss, checkpoint saved
+  step  1620: train_loss = 0.0045
+  step  1640: train_loss = 0.0408
+  step  1660: train_loss = 0.0730
+  step  1680: train_loss = 0.0542
+  step  1700: train_loss = 0.0292
+  step  1720: train_loss = 0.0059
+  step  1740: train_loss = 0.0219
+  step  1760: train_loss = 0.0204
+  step  1780: train_loss = 0.0046
+  step  1800: train_loss = 0.0233
+  step  1800: VAL_LOSS = 0.0487
+  step  1820: train_loss = 0.0453
+  step  1840: train_loss = 0.0440
+  step  1860: train_loss = 0.0939
+  step  1880: train_loss = 0.0260
+  step  1900: train_loss = 0.0425
+  step  1920: train_loss = 0.0197
+  step  1940: train_loss = 0.0686
+  step  1960: train_loss = 0.0503
+  step  1980: train_loss = 0.0368
+
+Training run complete.
+Best val_loss: 0.0486
+Checkpoints saved in: checkpoints

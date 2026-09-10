@@ -1,0 +1,120 @@
+/home/sb2691@students.ad.unt.edu/miniconda3/envs/aki-fm/lib/python3.11/site-packages/torch/nn/modules/transformer.py:508: UserWarning: The PyTorch API of nested tensors is in prototype stage and will change in the near future. We recommend specifying layout=torch.jagged when constructing a nested tensor, as this layout receives active development, has better operator coverage, and works with torch.compile. (Triggered internally at /pytorch/aten/src/ATen/NestedTensorImpl.cpp:178.)
+  output = torch._nested_tensor_from_mask(
+Loaded checkpoint: checkpoints/best_model.pt
+Loading tokens_output/training_examples.parquet...
+  829,858 patients
+  filtered to split='val': 82,978 patients
+
+
+########## EXAMPLE 1: A REAL AKI CASE ##########
+
+======================================================================
+stay_id: 39699336  (source: mimic)
+======================================================================
+
+--- INPUT ---
+Prediction time: 3482.9 minutes since admission (58.0 hours)
+
+Static tokens: [{'concept': 'age', 'value': 85.0, 'type': 'numeric'}, {'concept': 'source_hospital', 'value': 'mimic', 'type': 'categorical'}]
+
+Total context tokens: 1833
+Most recent 15 tokens (i.e. the data right up to the prediction moment):
+  t=  3398.0min  [chartevents ]  Heart Rate                      value=70.0
+  t=  3398.0min  [chartevents ]  Respiratory Rate                value=19.0
+  t=  3424.0min  [chartevents ]  RSBI Deferred                   value=Vent Dependant
+  t=  3452.0min  [chartevents ]  Heart Rate                      value=71.0
+  t=  3452.0min  [chartevents ]  O2 saturation pulseoxymetry     value=98.0
+  t=  3452.0min  [chartevents ]  Non Invasive Blood Pressure me  value=57.0
+  t=  3452.0min  [chartevents ]  Non Invasive Blood Pressure di  value=45.0
+  t=  3452.0min  [chartevents ]  Temperature Fahrenheit          value=98.5
+  t=  3452.0min  [chartevents ]  Heart Rhythm                    value=AV Paced
+  t=  3452.0min  [chartevents ]  Ectopy Type 1                   value=None
+  t=  3452.0min  [chartevents ]  Respiratory Rate                value=21.0
+  t=  3452.0min  [chartevents ]  Temperature Fahrenheit          value=98.8
+  t=  3452.0min  [chartevents ]  Non Invasive Blood Pressure sy  value=95.0
+  t=  3452.0min  [chartevents ]  Temperature Site                value=Oral
+  t=  3453.0min  [outputevents]  urine_output                    value=70.0
+
+--- GROUND TRUTH (what actually happened) ---
+event_type: aki
+Real AKI onset time: 14818.0min  (188.9 hours AFTER this prediction point)
+
+--- MODEL OUTPUT ---
+Predicted per-hour risk (first 10 hours from this prediction point):
+  hour 0: 0.0108
+  hour 1: 0.0085
+  hour 2: 0.0068
+  hour 3: 0.0061
+  hour 4: 0.0077
+  hour 5: 0.0088
+  hour 6: 0.0137
+  hour 7: 0.0046
+  hour 8: 0.0067
+  hour 9: 0.0069
+
+Cumulative predicted risk at standard horizons:
+  within 6h: 0.0477
+  within 12h: 0.0899
+  within 24h: 0.1416
+  within 48h: 0.1966
+
+Most recent segment routed to expert(s): [6, 2]
+(NOTE: model is only partially trained so far — this routing
+ is not yet expected to correspond to a clinically meaningful pattern.)
+
+
+########## EXAMPLE 2: A REAL CENSORED (NO AKI) CASE ##########
+
+======================================================================
+stay_id: 37067082  (source: mimic)
+======================================================================
+
+--- INPUT ---
+Prediction time: 3067.8 minutes since admission (51.1 hours)
+
+Static tokens: [{'concept': 'age', 'value': 55.0, 'type': 'numeric'}, {'concept': 'source_hospital', 'value': 'mimic', 'type': 'categorical'}]
+
+Total context tokens: 844
+Most recent 15 tokens (i.e. the data right up to the prediction moment):
+  t=  1552.0min  [chartevents ]  Non Invasive Blood Pressure di  value=86.0
+  t=  1552.0min  [chartevents ]  Ectopy Type 1                   value=None
+  t=  1552.0min  [chartevents ]  Heart Rate                      value=93.0
+  t=  1565.0min  [chartevents ]  Orientation to Person           value=2.0
+  t=  1565.0min  [chartevents ]  Temperature Site                value=Oral
+  t=  1565.0min  [chartevents ]  Temperature Fahrenheit          value=99.1
+  t=  1565.0min  [chartevents ]  Neurological Symptoms           value=Headache
+  t=  1571.0min  [chartevents ]  O2 Delivery Device(s)           value=Nasal cannula
+  t=  1571.0min  [chartevents ]  Daily Wake Up                   value=No, not sedated
+  t=  1571.0min  [chartevents ]  Goal Richmond-RAS Scale         value=0.0
+  t=  1571.0min  [chartevents ]  Richmond-RAS Scale              value=-1.0
+  t=  1571.0min  [chartevents ]  Delirium assessment             value=Negative
+  t=  1571.0min  [chartevents ]  O2 Flow                         value=4.0
+  t=  1571.0min  [chartevents ]  CAM-ICU MS Change               value=0.0
+  t=  2201.0min  [labevents   ]  creatinine_serum                value=0.4
+
+--- GROUND TRUTH (what actually happened) ---
+event_type: censored
+No AKI occurred in this patient's observed data (censored).
+
+--- MODEL OUTPUT ---
+Predicted per-hour risk (first 10 hours from this prediction point):
+  hour 0: 0.0121
+  hour 1: 0.0098
+  hour 2: 0.0079
+  hour 3: 0.0068
+  hour 4: 0.0084
+  hour 5: 0.0093
+  hour 6: 0.0144
+  hour 7: 0.0052
+  hour 8: 0.0070
+  hour 9: 0.0066
+
+Cumulative predicted risk at standard horizons:
+  within 6h: 0.0530
+  within 12h: 0.0977
+  within 24h: 0.1518
+  within 48h: 0.2085
+
+Most recent segment routed to expert(s): [6, 2]
+(NOTE: model is only partially trained so far — this routing
+ is not yet expected to correspond to a clinically meaningful pattern.)
